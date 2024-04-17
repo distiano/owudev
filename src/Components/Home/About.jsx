@@ -13,7 +13,7 @@ const About = () => {
           <img src={imgAbout} alt="Tentang Kami" className="" style={{ width: '100%', height: '325px' }} data-wow-delay="0.2s" />
         </div>
         <div className="col-span-2 sm:pl-16">
-          <div className="about-content wow fadeInRight" data-wow-delay="0.3s" style={{ textAlign: 'justify' }}>
+          <div className="about-content mt-5 font-semibold fadeInRight" data-wow-delay="0.3s" style={{ textAlign: 'justify' }}>
             <div className="flex items-center">
               <h6 className="p-8 size-1 bg-black rounded-full flex items-center justify-center font-bold text-white text-2xl">1</h6>
               <p className="pl-10 text-sm sm:text-md">Kodir adalah tim web developer yang berbasis di Tembalang, Semarang. kami menggabungkan semangat dan pengetahuan kami untuk memberikan solusi digital yang inovatif dan bermanfaat.</p>

@@ -6,7 +6,10 @@ const Hero = () => {
   return (
     <div style={{ backgroundImage: `url(${background})`, backgroundSize: 'cover' }}>
       <div className="relative isolate px-6 lg:px-16 flex items-center hero min-h-screen bg-gray-800 bg-opacity-25 ">
-        <div className="mt-12 max-w-3xl bg-gray-800 bg-opacity-25 backdrop-blur-lg p-8 rounded-lg text-white">
+        <div className="absolute end-0 bottom-0 float-end hidden sm:flex">
+          <img src={hero} alt="" />
+        </div>
+        <div className="mt-12 max-w-3xl sm:bg-gray-800 sm:bg-opacity-25 sm:backdrop-blur-lg p-8 rounded-lg text-white">
           <div className="hidden mt-8 sm:mb-8 sm:flex">
             <div className="relative rounded-full px-3 text-sm leading-6  ring-1 ring-gray-900/10 hover:ring-gray-900/20">
               Announcing our next round of funding.{' '}
@@ -43,9 +46,6 @@ const Hero = () => {
               <FaGithub style={{ color: 'black' }} />
             </div>
           </div>
-        </div>
-        <div className="absolute end-0 bottom-0 float-end ">
-          <img src={hero} alt="" />
         </div>
       </div>
     </div>

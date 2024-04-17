@@ -15,23 +15,28 @@ const Portofolio = () => {
       <p className="text-center mt-3 text-sm sm:text-md lg:px-52">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum modi voluptate dolor tenetur fugit sed. Dignissimos expedita sed inventore delectus neque, ratione molestiae, omnis magnam optio deleniti est voluptates perferendis.
       </p>
-      <div className="grid grid-cols-2 gap-2 sm:grid-cols-3 sm:gap-5 mt-10">
+      <div className="grid grid-cols-1 gap-4 sm:grid-cols-3 sm:gap-5 mt-10">
         {portofolio.map((portofolio, index) => (
-          <div className="h-38  relative group" key={index}>
+          <div className="h-38  " key={index}>
             <Link to={`/portofolio/${portofolio.id}`}>
-              <img className="rounded-md w-70 h-38" src={portofolio.image} alt="" />
-              <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300 bg-black bg-opacity-50 rounded-lg shadow-xl">
-                <div className="">
-                  <div href="#" className="flex items-center rounded-md text-sm sm:text-md px-4 py-2 bg-slate-300 text-gray-600 font-bold hover:bg-slate-400 hover:text-gray-300">
-                    View
-                    <FaArrowRightToBracket className="ml-1" />
-                  </div>
-                  <div className="absolute bottom-0 left-0 w-full bg-white py-2 px-4  opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                    <h3 className="text-sm  font-semibold">{portofolio.judul}</h3>
+              <div className="relative group">
+                <img className="rounded-md w-70 h-38" src={portofolio.image} alt="" />
+                <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300 bg-black bg-opacity-50 rounded-lg shadow-xl">
+                  <div className="">
+                    <div href="#" className="flex items-center rounded-md text-sm sm:text-md px-4 py-2 bg-slate-300 text-gray-600 font-bold hover:bg-slate-400 hover:text-gray-300">
+                      View
+                      <FaArrowRightToBracket className="ml-1" />
+                    </div>
+                    <div className="absolute bottom-0 left-0 w-full bg-white py-2 px-4  opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                      <h3 className="text-sm  font-semibold">{portofolio.judul}</h3>
+                    </div>
                   </div>
                 </div>
               </div>
             </Link>
+            <div className="sm:hidden">
+              <h4 className=" font-bold mt-1">{portofolio.judul}</h4>
+            </div>
           </div>
         ))}
       </div>

@@ -2,7 +2,7 @@ const Footer = () => {
   return (
     <footer className="bg-gradient-to-r from-indigo-900 to-violet-500 mt-16 ">
       <div className="mx-auto w-full max-w-screen-xl">
-        <div className="grid grid-cols-2 gap-8  py-6 lg:py-8 md:grid-cols-4 px-6 sm:px-16 text-white">
+        <div className="grid grid-cols-1 gap-4 sm:gap-8 text-sm md:text-base py-6 lg:py-8 md:grid-cols-4 px-10 sm:px-16 text-white">
           <div>
             <h1 className="text-5xl font-bold"> owudev</h1>
             <div className="flex mt-4 sm:justify-start md:mt-5 space-x-5 rtl:space-x-reverse">
@@ -51,7 +51,7 @@ const Footer = () => {
             </div>
           </div>
           <div>
-            <h2 className="mb-6 font-bold ">Company</h2>
+            <h2 className="mb-3 sm:mb-6 text-base font-bold ">Company</h2>
             <ul className=" ">
               <li className="mb-4">
                 <a href="#" className=" hover:underline">
@@ -76,7 +76,7 @@ const Footer = () => {
             </ul>
           </div>
           <div>
-            <h2 className="mb-6  font-bold ">Help center</h2>
+            <h2 className="mb-3 sm:mb-6 text-base font-bold ">Help center</h2>
             <ul className=" ">
               <li className="mb-4">
                 <a href="#" className="hover:underline">
@@ -101,7 +101,7 @@ const Footer = () => {
             </ul>
           </div>
           <div>
-            <h2 className="mb-6  font-bold ">Legal</h2>
+            <h2 className="mb-3 sm:mb-6 text-base font-bold ">Legal</h2>
             <ul className=" ">
               <li className="mb-4">
                 <a href="#" className="hover:underline">
