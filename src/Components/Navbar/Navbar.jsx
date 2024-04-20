@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react';
 import { Dialog } from '@headlessui/react';
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline';
 import { Link } from 'react-router-dom';
+import logo from '../../assets/images/owudev.png';
 
 const navigation = [
   { name: 'Home', href: '/' },
@@ -36,7 +37,9 @@ export default function Example() {
         <div className="flex lg:flex-1">
           <a href="#" className="-m-1.5 p-1.5">
             <span className="sr-only">Your Company</span>
-            <img className="h-8 w-auto" src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600" alt="" />
+            <h3 className="text-3xl" style={{ color: '#5e17eb' }}>
+              owudev
+            </h3>{' '}
           </a>
         </div>
         <div className="flex lg:hidden">
