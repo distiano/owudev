@@ -13,7 +13,7 @@ const Portofolio = () => {
         <div className="w-1/4 border-t border-indigo-900 ml-4"></div>
       </div>{' '}
       <p className="text-center mt-3 text-sm sm:text-md lg:px-52 text-gray-600">Beberapa portofilo website dan aplikasi klien yang sudah kami kerjakan sebelumnya </p>
-      <div className="grid grid-cols-1 gap-4 sm:grid-cols-3 sm:gap-5 mt-10">
+      <div className="grid  gap-4 sm:grid-cols-2 lg:grid-cols-3 sm:gap-5 mt-10">
         {portofolio.map((portofolio, index) => (
           <div className="h-38  " key={index}>
             <Link to={`/portofolio/${portofolio.id}`}>

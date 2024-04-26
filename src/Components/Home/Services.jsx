@@ -87,7 +87,7 @@ const Services = () => {
           Kami menyediakan berbagai jenis kategori website yang bisa Anda pilih sesuai kebutuhan Anda. Masing-masing kategori website memiliki perbedaan dari fasilitas, harga, desain, fitur dan fungsi.
         </p>
       </div>
-      <div className="grid sm:grid-cols-4 gap-4">
+      <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4">
         <div className="p-5 text-center rounded-2xl bg-white" style={{ boxShadow: '1px 4px 4px 4px #00000040' }}>
           <h6 className="text-base text-gray-600">Paket Website</h6>
           <h4 className="text-xl font-bold mb-2">Company Profile</h4>

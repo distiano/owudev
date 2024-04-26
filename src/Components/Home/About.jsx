@@ -12,7 +12,7 @@ const About = () => {
         <div className="flex justify-center order-1 sm:order-2">
           <img src={imgAbout} className="size-80 sm:size-auto" alt="" />
         </div>
-        <div className=" fadeInRight  order-2 sm:order-1" data-wow-delay="0.3s">
+        <div className=" fadeInRight  order-2 sm:order-1 mt-5 sm:mt-0" data-wow-delay="0.3s">
           <div className="flex items-start sm:items-center gap-5">
             <div className="text-2xl bg-black px-5 py-3 size-12 rounded-2xl text-white flex items-center justify-center font-bold">1</div>
             <p className=" text-sm sm:text-base ">Kodir adalah tim web developer yang berbasis di Tembalang, Semarang. kami menggabungkan semangat dan pengetahuan kami untuk memberikan solusi digital yang inovatif dan bermanfaat.</p>

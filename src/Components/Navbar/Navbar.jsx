@@ -37,7 +37,7 @@ export default function Example() {
         <div className="flex lg:flex-1">
           <a href="#" className="-m-1.5 p-1.5">
             <span className="sr-only">Your Company</span>
-            <h3 className="text-3xl text-blue-500">owudev</h3>{' '}
+            <h3 className="text-3xl font-bold text-blue-500">Owudev.</h3>{' '}
           </a>
         </div>
         <div className="flex lg:hidden">

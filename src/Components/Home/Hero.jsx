@@ -19,7 +19,7 @@ const Hero = () => {
             </div> */}
             <div className="text-center sm:text-start">
               <h1 className="text-4xl font-bold tracking-tight">Partner Solusi Digital Anda</h1>
-              <p className="mt-6 text-lg leading-8 text-slate-600">
+              <p className="mt-6 text-base sm:text-lg leading-8 text-grey-600">
                 Kami berfokus untuk menciptakan dampak positif bagi partner dengan menggunakan produk digital kami. Kami memahami bahwa setiap bisnis memiliki kebutuhan digital yang berbeda, itu sebabnya kami menyesuaikan produk kami agar
                 sesusai dengan kebutuhan Anda.
               </p>
@@ -41,8 +41,8 @@ const Hero = () => {
               <FaGithub className="size-5" style={{ color: 'black' }} />
             </div>
           </div>
-          <div className="order-1 sm:order-2">
-            <img src={hero} alt="" />
+          <div className="order-1 sm:order-2 flex justify-center mt-10 sm:mt-0">
+            <img src={hero} className="h-64 sm:h-auto" alt="" />
           </div>
         </div>
       </div>
