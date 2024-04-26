@@ -28,7 +28,7 @@ const Hero = () => {
                   <FaRegPaperPlane />
                   Get started
                 </a>
-                <a href="#" className="flex items-center justify-center gap-4 text-sm text-center bg-white py-2.5 w-48 rounded-2xl font-semibold leading-6" style={{ boxShadow: ' 4px 4px 4px 0px #00000040' }}>
+                <a href="#" className="flex items-center justify-center gap-4 text-sm text-center bg-white py-2.5 w-40 sm:w-48 rounded-2xl font-semibold leading-6" style={{ boxShadow: ' 4px 4px 4px 0px #00000040' }}>
                   <IoIosArrowDropright className="size-5" />
                   Lihat Portofolio
                 </a>

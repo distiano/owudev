@@ -15,11 +15,11 @@ const Client = () => {
         <p className="text-center mt-3 text-sm sm:text-md lg:px-52 text-gray-600">Kepercayaan pelanggan adalah kebanggaan kami. Para pelanggan mempercayakan pengembangan website bersama kami. Kini saatnya anda menjadi bagian dari kami. </p>
       </div>
       <marquee behavior="" direction="left"></marquee>
-      <div className="flex justify-center gap-10">
-        <img src={imgClient1} className="h-28" alt="" />
-        <img src={imgClient2} className="h-28" alt="" />
-        <img src={imgClient3} className="h-28" alt="" />
-        <img src={imgClient4} className="h-28" alt="" />
+      <div className="flex justify-center gap-5 sm:gap-10">
+        <img src={imgClient1} className="h-16 sm:h-28" alt="" />
+        <img src={imgClient2} className="h-16 sm:h-28" alt="" />
+        <img src={imgClient3} className="h-16 sm:h-28" alt="" />
+        <img src={imgClient4} className="h-16 sm:h-28" alt="" />
       </div>
     </div>
   );
