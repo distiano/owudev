@@ -1,14 +1,14 @@
-import { FaInstagram, FaWhatsapp, FaGithub } from 'react-icons/fa';
-import background from '../../assets/images/2.png';
-import hero from '../../assets/images/ppp.png';
+import { FaInstagram, FaWhatsapp, FaGithub, FaRegPaperPlane } from 'react-icons/fa';
+import hero from '../../assets/images/Young people working in a team.png';
+import { IoIosArrowDropright } from 'react-icons/io';
 
 const Hero = () => {
   return (
-    <div style={{ backgroundImage: `url(${background})`, backgroundSize: 'cover' }}>
-      <div className="relative isolate px-6 lg:px-16 flex items-center hero min-h-screen  ">
-        <div className="grid sm:grid-cols-2 ">
-          <div className="mt-12 max-w-3xl p-8 rounded-lg text-white">
-            <div className="hidden mt-8 sm:mb-8 sm:flex">
+    <div className="hero ">
+      <div className="relative isolate px-6 lg:px-16 flex items-center hero min-h-screen">
+        <div className="grid sm:grid-cols-2 items-center">
+          <div className="sm:mt-12 max-w-3xl p-8 rounded-lg order-2 sm:order-1">
+            {/* <div className="hidden mt-8 sm:mb-8 sm:flex">
               <div className="relative rounded-full px-3 text-sm leading-6  ring-1 ring-gray-900/10 hover:ring-gray-900/20">
                 Announcing our next round of funding.{' '}
                 <a href="#" className="font-semibold text-indigo-600">
@@ -16,36 +16,32 @@ const Hero = () => {
                   Read more <span aria-hidden="true">&rarr;</span>
                 </a>
               </div>
-            </div>
+            </div> */}
             <div className="text-center sm:text-start">
-              <h1 className="text-4xl font-bold tracking-tight">Make your digital dreams come true</h1>
-              <p className="mt-6 text-lg leading-8">Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat fugiat aliqua.</p>
+              <h1 className="text-4xl font-bold tracking-tight">Partner Solusi Digital Anda</h1>
+              <p className="mt-6 text-lg leading-8 text-slate-600">
+                Kami berfokus untuk menciptakan dampak positif bagi partner dengan menggunakan produk digital kami. Kami memahami bahwa setiap bisnis memiliki kebutuhan digital yang berbeda, itu sebabnya kami menyesuaikan produk kami agar
+                sesusai dengan kebutuhan Anda.
+              </p>
               <div className="mt-10 flex items-center justify-center sm:justify-normal gap-x-6">
-                <a
-                  href="#"
-                  className="rounded-lg bg-gradient-to-r from-indigo-900 to-violet-500 px-3.5 py-2.5 text-sm font-semibold text-white shadow-xl hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
-                >
+                <a href="#" className="text-center flex items-center justify-center gap-4 bg-blue-500 py-3 rounded-2xl text-sm font-bold text-white w-36 sm:w-56" style={{ boxShadow: ' 4px 4px 4px 0px #00000040' }}>
+                  <FaRegPaperPlane />
                   Get started
                 </a>
-                <a href="#" className="text-sm font-semibold leading-6">
-                  Learn more <span aria-hidden="true">→</span>
+                <a href="#" className="flex items-center justify-center gap-4 text-sm text-center bg-white py-2.5 w-48 rounded-2xl font-semibold leading-6" style={{ boxShadow: ' 4px 4px 4px 0px #00000040' }}>
+                  <IoIosArrowDropright className="size-5" />
+                  Lihat Portofolio
                 </a>
               </div>
             </div>
-            <div className="justify-center sm:justify-start flex mt-10">
-              <h6 className="text-sm font-semibold text-gray-300">Find Us:</h6>
-              <div className="bg-slate-500 bg-opacity-50 p-1 rounded-lg mx-2">
-                <FaWhatsapp style={{ color: '#25D366' }} />
-              </div>
-              <div className="bg-slate-500 bg-opacity-50 p-1 rounded-lg mx-2">
-                <FaInstagram style={{ color: '#c32aa3' }} />
-              </div>
-              <div className="bg-slate-500 bg-opacity-50 p-1 rounded-lg mx-2">
-                <FaGithub style={{ color: 'black' }} />
-              </div>
+            <div className="justify-center items-center sm:justify-start flex gap-3 mt-10">
+              <h6 className="text-sm font-semibold ">Ikuti Kami:</h6>
+              <FaWhatsapp className="size-5" style={{ color: '#25D366' }} />
+              <FaInstagram className="size-5" style={{ color: '#c32aa3' }} />
+              <FaGithub className="size-5" style={{ color: 'black' }} />
             </div>
           </div>
-          <div className=" size-64 sm:size-10/12 sm:ml-28 sm:mt-14">
+          <div className="order-1 sm:order-2">
             <img src={hero} alt="" />
           </div>
         </div>

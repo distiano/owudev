@@ -50,13 +50,13 @@ export default function Example() {
         </div>
         <div className="hidden lg:flex lg:gap-x-12 ">
           {navigation.map((item) => (
-            <Link key={item.name} to={item.href} className={`text-sm font-bold ${isScrolled ? 'text-gray-900' : 'text-white'} hover:text-indigo-400`}>
+            <Link key={item.name} to={item.href} className={`text-sm font-bold ${isScrolled ? 'text-gray-900' : 'text-gray-600'} hover:text-indigo-400`}>
               {item.name}
             </Link>
           ))}
         </div>
         <div className="hidden lg:flex lg:flex-1 lg:justify-end ">
-          <a href="#" className="bg-gradient-to-r from-indigo-900 to-violet-500 px-3 py-2 rounded-lg text-sm font-semibold leading-6 text-white hover:text-indigo-300">
+          <a href="#" className="bg-blue-500 px-3 py-2 rounded-2xl w-48 text-sm font-semibold leading-6 text-white text-center">
             Contact Us <span aria-hidden="true">&rarr;</span>
           </a>
         </div>

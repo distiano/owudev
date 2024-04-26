@@ -12,9 +12,7 @@ const Portofolio = () => {
         <h1 className="text-3xl font-bold text-center">Portofolio</h1>
         <div className="w-1/4 border-t border-indigo-900 ml-4"></div>
       </div>{' '}
-      <p className="text-center mt-3 text-sm sm:text-md lg:px-52">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum modi voluptate dolor tenetur fugit sed. Dignissimos expedita sed inventore delectus neque, ratione molestiae, omnis magnam optio deleniti est voluptates perferendis.
-      </p>
+      <p className="text-center mt-3 text-sm sm:text-md lg:px-52 text-gray-600">Beberapa portofilo website dan aplikasi klien yang sudah kami kerjakan sebelumnya </p>
       <div className="grid grid-cols-1 gap-4 sm:grid-cols-3 sm:gap-5 mt-10">
         {portofolio.map((portofolio, index) => (
           <div className="h-38  " key={index}>

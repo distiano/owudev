@@ -1,40 +1,66 @@
-import imgAbout from '../../assets/images/about.jpg';
+import imgAbout from '../../assets/images/ppp.png';
+import { FaComputer, FaUsers, FaLightbulb } from 'react-icons/fa6';
 
 const About = () => {
   return (
     <div className="py-10 px-6 sm:px-16">
       <h2 className="text-center text-2xl sm:text-3xl font-bold mb-5 mt-5 sm:mt-0">Kodir: Wujudkan Impian Digital Anda</h2>
-
-      <p className="text-center mt-3 text-sm sm:text-md lg:px-52">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum modi voluptate dolor tenetur fugit sed. Dignissimos expedita sed inventore delectus neque, ratione molestiae, omnis magnam optio deleniti est voluptates perferendis.
+      <p className="text-center mt-3 text-gray-600 text-sm  lg:px-52">
+        Kami adalah tim yang bersemangat dalam menciptakan solusi digital yang inovatif. Dengan gabungan kreativitas dan keahlian teknis, kami telah berhasil menghasilkan produk-produk yang memukau.{' '}
       </p>
-      <div className="sm:grid grid-cols-3 mt-10">
-        <div className="">
-          <img src={imgAbout} alt="Tentang Kami" className="" style={{ width: '100%', height: '325px' }} data-wow-delay="0.2s" />
+      <div className=" mt-10 text-gray-600 sm:grid grid-cols-2 mb-10 items-center">
+        <div className="flex justify-center order-1 sm:order-2">
+          <img src={imgAbout} className="size-80 sm:size-auto" alt="" />
         </div>
-        <div className="col-span-2 sm:pl-16">
-          <div className="about-content mt-5 font-semibold fadeInRight" data-wow-delay="0.3s" style={{ textAlign: 'justify' }}>
-            <div className="flex items-center">
-              <h6 className="p-8 size-1 bg-black rounded-full flex items-center justify-center font-bold text-white text-2xl">1</h6>
-              <p className="pl-10 text-sm sm:text-md">Kodir adalah tim web developer yang berbasis di Tembalang, Semarang. kami menggabungkan semangat dan pengetahuan kami untuk memberikan solusi digital yang inovatif dan bermanfaat.</p>
-            </div>
-            <div className="flex items-center mt-5">
-              <h6 className="p-8 size-1 bg-gradient-to-r from-indigo-900 to-violet-500 rounded-full flex items-center justify-center font-bold text-white text-2xl">2</h6>
-              <p className=" pl-10 text-sm sm:text-md">
-                Kami memahami pentingnya kualitas dan inovasi dalam dunia pengembangan web. Tim Kodir berkomitmen untuk menghadirkan solusi yang tidak hanya berfungsi dengan baik, tetapi juga memberikan pengalaman yang memukau kepada
-                pengguna. Dengan penggabungan pengetahuan akademis dan ketekunan kami, kami menciptakan solusi yang inovatif dan sesuai dengan perkembangan teknologi terbaru.
-              </p>
-            </div>
-            <div className="flex items-center mt-5">
-              <h6 className="p-8 size-1 bg-black rounded-full flex items-center justify-center font-bold text-white text-2xl">3</h6>
-              <p className="pl-10 text-sm sm:text-md">
-                Dengan kombinasi antara kreativitas dan teknologi, kami menghadirkan pengalaman web yang unik dan berfokus pada kebutuhan Anda. Tim kami, yang terdiri dari para developer yang berdedikasi, siap menjembatani visi Anda menjadi
-                solusi yang sesuai.
-              </p>
-            </div>
-
-            <p className="mt-5 text-sm sm:text-md">Mari bergabung dalam perjalanan digital bersama kami, dan mari bersama-sama menciptakan transformasi digital untuk bisnis Anda.</p>
+        <div className=" fadeInRight  order-2 sm:order-1" data-wow-delay="0.3s">
+          <div className="flex items-start sm:items-center gap-5">
+            <div className="text-2xl bg-black px-5 py-3 size-12 rounded-2xl text-white flex items-center justify-center font-bold">1</div>
+            <p className=" text-sm sm:text-base ">Kodir adalah tim web developer yang berbasis di Tembalang, Semarang. kami menggabungkan semangat dan pengetahuan kami untuk memberikan solusi digital yang inovatif dan bermanfaat.</p>
           </div>
+          <div className="flex items-start sm:items-center mt-5 gap-5">
+            <div className="text-2xl bg-blue-500 px-5 py-3 size-12 rounded-2xl text-white flex items-center justify-center font-bold">2</div>
+            <p className=" text-sm sm:text-base ">
+              Kami memahami pentingnya kualitas dan inovasi dalam dunia pengembangan web. Tim Kodir berkomitmen untuk menghadirkan solusi yang tidak hanya berfungsi dengan baik, tetapi juga memberikan pengalaman yang memukau kepada
+              pengguna. Dengan penggabungan pengetahuan akademis dan ketekunan kami, kami menciptakan solusi yang inovatif dan sesuai dengan perkembangan teknologi terbaru.
+            </p>
+          </div>
+          <div className="flex items-start sm:items-center mt-5 gap-5">
+            <div className="text-2xl bg-black px-5 py-3 size-12 rounded-2xl text-white flex items-center justify-center font-bold">3</div>
+            <p className=" text-sm sm:text-base ">
+              Dengan kombinasi antara kreativitas dan teknologi, kami menghadirkan pengalaman web yang unik dan berfokus pada kebutuhan Anda. Tim kami, yang terdiri dari para developer yang berdedikasi, siap menjembatani visi Anda menjadi
+              solusi yang sesuai.
+            </p>
+          </div>
+          <p className="mt-5 text-sm sm:text-base">Mari bergabung dalam perjalanan digital bersama kami, dan mari bersama-sama menciptakan transformasi digital untuk bisnis Anda.</p>
+        </div>
+      </div>
+      <div className="grid sm:grid-cols-3 gap-10 mt-10 sm:mt-0">
+        <div className="p-5 rounded-2xl" style={{ boxShadow: ' 1px 4px 4px 4px #00000040' }}>
+          <div className="flex items-center gap-5">
+            <div className="bg-blue-500 size-12 rounded-2xl text-white flex items-center justify-center">
+              <FaComputer className="size-7" />
+            </div>
+            <h5 className="font-bold">Pengembangan Digital</h5>
+          </div>
+          <p className="text-gray-600 text-sm mt-3">Seorang programmer di tim kami bertanggung jawab untuk merancang dan mengembangkan website serta aplikasi yang memenuhi kebutuhan klien kami Untuk memastikan performa yang menarik.</p>
+        </div>
+        <div className="p-5 rounded-2xl" style={{ boxShadow: ' 1px 4px 4px 4px #00000040' }}>
+          <div className="flex items-center gap-5">
+            <div className="bg-blue-500 size-12 rounded-2xl text-white flex items-center justify-center">
+              <FaUsers className="size-7" />
+            </div>
+            <h5 className="font-bold">Kolaborasi antar Tim</h5>
+          </div>
+          <p className="text-gray-600 text-sm mt-3">Kami sangat menghargai kolaborasi dalam tim. Seorang programmer berkolaborasi dengan tim desain, pengembang front-end, dan anggota tim lainnya untuk mencapai tujuan bersama.</p>
+        </div>
+        <div className="p-5 rounded-2xl" style={{ boxShadow: ' 1px 4px 4px 4px #00000040' }}>
+          <div className="flex items-center gap-5">
+            <div className="bg-blue-500 size-12 rounded-2xl text-white flex items-center justify-center">
+              <FaLightbulb className="size-7" />
+            </div>
+            <h5 className="font-bold">Inovasi dan Pemecahan Masalah</h5>
+          </div>
+          <p className="text-gray-600 text-sm mt-3">Kami mengutamakan inovasi dan kreativitas dalam setiap proyek yang kami kerjakan. Seorang programmer juga harus memiliki kemampuan untuk memecahkan masalah dengan cepat dan efisien.</p>
         </div>
       </div>
     </div>

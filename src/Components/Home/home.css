@@ -7,3 +7,7 @@
 .content:hover {
   opacity: 1;
 }
+
+.hero {
+  background: linear-gradient(90deg, rgba(115, 217, 255, 0.5) 0%, rgba(255, 255, 255, 0.5) 50%, rgba(115, 217, 255, 0.5) 100%);
+}

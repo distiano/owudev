@@ -1,5 +1,6 @@
 import Footer from '../Components/Footer/Footer';
 import About from '../Components/Home/About';
+import Client from '../Components/Home/Client';
 import Hero from '../Components/Home/Hero';
 import Portofolio from '../Components/Home/Portofolio';
 import Services from '../Components/Home/Services';
@@ -11,9 +12,6 @@ const Homepage = () => {
     <>
       <Navbar />
       <Hero />
-      <div>
-        <img src={gambar} alt="" />
-      </div>
       <div className="pt-10 flex items-center justify-center ">
         <div className="w-1/4 border-t border-indigo-900 mr-4"></div>
         <h1 className="text-3xl font-bold text-center">About Us</h1>
@@ -22,6 +20,7 @@ const Homepage = () => {
       <About />
       <Services />
       <Portofolio />
+      <Client />
       <Footer />
     </>
   );
