@@ -87,7 +87,7 @@ const Services = () => {
           Kami menyediakan berbagai jenis kategori website yang bisa Anda pilih sesuai kebutuhan Anda. Masing-masing kategori website memiliki perbedaan dari fasilitas, harga, desain, fitur dan fungsi.
         </p>
       </div>
-      <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4">
+      <div className="grid sm:grid-cols-2 xl:grid-cols-4 gap-4">
         <div className="p-5 text-center rounded-2xl bg-white" style={{ boxShadow: '1px 4px 4px 4px #00000040' }}>
           <h6 className="text-base text-gray-600">Paket Website</h6>
           <h4 className="text-xl font-bold mb-2">Company Profile</h4>
@@ -133,7 +133,7 @@ const Services = () => {
               <p className="text-xs font-semibold">.com/ .my.id/ dll</p>
             </div>
             <div className="flex justify-between items-center mt-2">
-              <div className="flex gap-3 items-center">
+              <div className="flex gap-3 items-center ">
                 <FaRegCheckCircle className="text-blue-500" /> <p className="text-xs text-gray-600 font-semibold">Fitur Chat Whatsapp</p>
               </div>
               <p className="text-xs font-semibold">.com/ .my.id/ dll</p>
@@ -416,7 +416,7 @@ const Services = () => {
           Kami menyediakan berbagai jenis kategori website yang bisa Anda pilih sesuai kebutuhan Anda. Masing-masing kategori website memiliki perbedaan dari fasilitas, harga, desain, fitur dan fungsi.
         </p>
       </div>
-      <div className="grid sm:grid-cols-2 items-center">
+      <div className="grid sm:grid-cols-2 gap-10 xl:gap-0 items-center">
         <div>
           <img src={imgAbout} className="size-auto" alt="" />
         </div>

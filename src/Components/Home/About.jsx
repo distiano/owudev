@@ -3,7 +3,7 @@ import { FaComputer, FaUsers, FaLightbulb } from 'react-icons/fa6';
 
 const About = () => {
   return (
-    <div className="py-10 px-6 sm:px-16">
+    <div className="py-10 px-6 sm:px-16 ">
       <h2 className="text-center text-2xl sm:text-3xl font-bold mb-5 mt-5 sm:mt-0">Kodir: Wujudkan Impian Digital Anda</h2>
       <p className="text-center mt-3 text-gray-600 text-sm  lg:px-52">
         Kami adalah tim yang bersemangat dalam menciptakan solusi digital yang inovatif. Dengan gabungan kreativitas dan keahlian teknis, kami telah berhasil menghasilkan produk-produk yang memukau.{' '}

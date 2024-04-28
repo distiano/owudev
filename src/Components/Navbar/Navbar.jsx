@@ -33,7 +33,7 @@ export default function Example() {
 
   return (
     <header className={`fixed top-0 left-0 right-0 z-50 ${isScrolled ? 'bg-white' : ''}`} style={{ transition: 'background-color 0.3s ease' }}>
-      <nav className="flex items-center justify-between p-6 lg:px-8 shadow" aria-label="Global">
+      <nav className="flex items-center justify-between p-3 xl:p-6 lg:px-8 shadow" aria-label="Global">
         <div className="flex lg:flex-1">
           <a href="#" className="-m-1.5 p-1.5">
             <span className="sr-only">Your Company</span>

@@ -9,5 +9,10 @@
 }
 
 .hero {
-  background: linear-gradient(90deg, rgba(115, 217, 255, 0.5) 0%, rgba(255, 255, 255, 0.5) 50%, rgba(115, 217, 255, 0.5) 100%);
+  background: linear-gradient(180deg, rgba(115, 217, 255, 0.8) 0%, rgba(255, 255, 255, 0.5) 50%, rgba(115, 217, 255, 0.7) 100%);
+}
+
+.about {
+  /* Gradient dari bawah ke atas */
+  background: linear-gradient(180deg, rgba(115, 217, 255, 0.7) 0%, rgba(255, 255, 255, 0.5) 50%);
 }

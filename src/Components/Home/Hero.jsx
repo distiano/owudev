@@ -1,13 +1,14 @@
 import { FaInstagram, FaWhatsapp, FaGithub, FaRegPaperPlane } from 'react-icons/fa';
 import hero from '../../assets/images/Young people working in a team.png';
 import { IoIosArrowDropright } from 'react-icons/io';
+import { Link } from 'react-router-dom';
 
 const Hero = () => {
   return (
     <div className="hero ">
-      <div className="relative isolate px-6 lg:px-16 flex items-center hero min-h-screen">
-        <div className="grid sm:grid-cols-2 items-center">
-          <div className="sm:mt-12 max-w-3xl p-8 rounded-lg order-2 sm:order-1">
+      <div className="relative isolate px-6 lg:px-16 flex items-center  min-h-screen">
+        <div className="grid sm:grid-cols-2 gap-10 items-center">
+          <div className="sm:mt-12 rounded-lg order-2 sm:order-1">
             {/* <div className="hidden mt-8 sm:mb-8 sm:flex">
               <div className="relative rounded-full px-3 text-sm leading-6  ring-1 ring-gray-900/10 hover:ring-gray-900/20">
                 Announcing our next round of funding.{' '}
@@ -36,9 +37,15 @@ const Hero = () => {
             </div>
             <div className="justify-center items-center sm:justify-start flex gap-3 mt-10">
               <h6 className="text-sm font-semibold ">Ikuti Kami:</h6>
-              <FaWhatsapp className="size-5" style={{ color: '#25D366' }} />
-              <FaInstagram className="size-5" style={{ color: '#c32aa3' }} />
-              <FaGithub className="size-5" style={{ color: 'black' }} />
+              <Link to="">
+                <FaWhatsapp className="size-5" style={{ color: '#25D366' }} />
+              </Link>
+              <Link to="https://www.instagram.com/owudev/">
+                <FaInstagram className="size-5" style={{ color: '#c32aa3' }} />
+              </Link>
+              <Link>
+                <FaGithub className="size-5" style={{ color: 'black' }} />
+              </Link>
             </div>
           </div>
           <div className="order-1 sm:order-2 flex justify-center mt-10 sm:mt-0">
