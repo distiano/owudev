@@ -35,17 +35,17 @@ const Portofolio = () => {
               </div>
             </div>
             {/* </Link> */}
-            <div className="">
-              <h4 className=" text-xl font-bold mt-1">{portofolio.judul}</h4>
+            <div className="text-center">
+              <h4 className=" sm:text-xl font-semibold mt-3">{portofolio.judul}</h4>
             </div>
           </div>
         ))}
       </div>
       <div className="flex justify-center mt-10">
-        <div href="#" className="flex items-center justify-center w-32 rounded-lg text-sm sm:text-md px-4 py-2 bg-blue-500 text-white hover:bg-blue-700 hover:text-white">
+        <Link to="/portofolio" className="flex items-center justify-center w-32 rounded-lg text-sm sm:text-md px-4 py-2 bg-blue-500 text-white hover:bg-blue-700 hover:text-white">
           View More
           <FaArrowRightToBracket className="ml-1" />
-        </div>
+        </Link>
       </div>
     </div>
   );

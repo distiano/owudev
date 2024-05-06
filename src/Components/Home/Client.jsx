@@ -22,16 +22,16 @@ const Client = () => {
       <marquee behavior="" direction="left">
         {' '}
       </marquee>
-      <div className="flex justify-center items-center gap-4 sm:gap-10">
-        <img src={imgClient2} className="h-16 " alt="" />
-        <img src={imgClient1} className="h-16 " alt="" />
-        <img src={imgClient3} className="h-12" alt="" />
-        <img src={imgClient4} className="h-16 " alt="" />
-        <img src={imgClient5} className="h-16 " alt="" />
-        <img src={imgClient6} className="h-16 " alt="" />
-        <img src={imgClient7} className="h-16 " alt="" />
-        <img src={imgClient8} className="h-16 " alt="" />
-        <img src={imgClient9} className="h-16 " alt="" />
+      <div className="flex flex-wrap justify-center items-center gap-4 sm:gap-10">
+        <img src={imgClient2} className="h-10 md:h-20 " alt="" />
+        <img src={imgClient3} className="h-10 md:h-12" alt="" />
+        <img src={imgClient1} className="h-10 md:h-16 " alt="" />
+        <img src={imgClient4} className="h-10 md:h-16 " alt="" />
+        <img src={imgClient5} className="h-10 md:h-16 " alt="" />
+        <img src={imgClient6} className="h-10 md:h-16 " alt="" />
+        <img src={imgClient7} className="h-10 md:h-16 " alt="" />
+        <img src={imgClient8} className="h-10 md:h-16 " alt="" />
+        <img src={imgClient9} className="h-10 md:h-16 " alt="" />
       </div>
     </div>
   );

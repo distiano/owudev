@@ -1,5 +1,5 @@
 import gambar from '../images/ppp.jpg';
-import video1 from '../video/video1.mp4';
+import video1 from '../video/video5.mp4';
 import video2 from '../video/video2.mp4';
 import video3 from '../video/video3.mp4';
 import video4 from '../video/video4.mp4';
