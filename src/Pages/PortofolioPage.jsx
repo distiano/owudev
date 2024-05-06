@@ -11,16 +11,14 @@ const PortofolioPage = () => {
     <>
       <Navbar />
       <div className="hero py-24 mb-12 text-center">
-        <h1 className=" text-5xl font-bold pt-10">Our Portofolio</h1>
+        <h1 className=" text-5xl font-bold pt-10">Our Portfolio</h1>
       </div>
       <div className="flex items-center justify-center pt-10 px-6 sm:px-16">
         <div className="w-1/6 sm:w-1/4 border-t border-indigo-900 mr-4"></div>
-        <h1 className="text-3xl font-bold text-center">What's We Build</h1>
+        <h1 className="text-3xl font-bold text-center">What We Build</h1>
         <div className="w-1/6 sm:w-1/4 border-t border-indigo-900 ml-4"></div>
       </div>{' '}
-      <p className="text-center mt-3 text-sm sm:text-md lg:px-52 px-6">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum modi voluptate dolor tenetur fugit sed. Dignissimos expedita sed inventore delectus neque, ratione molestiae, omnis magnam optio deleniti est voluptates perferendis.
-      </p>
+      <p className="text-center mt-3 text-sm sm:text-md lg:px-52 px-6">Beberapa portofilo website dan aplikasi klien yang telah kami kerjakan.</p>
       <div className="grid grid-cols-1 gap-12 sm:grid-cols-2 sm:gap-16 py-10 px-6 sm:px-24">
         {portofolio.map((portofolio, index) => (
           <div className="relative group" key={index}>

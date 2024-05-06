@@ -4,7 +4,7 @@ const Footer = () => {
       <div className="mx-auto w-full max-w-screen-xl">
         <div className="grid grid-cols-1 gap-4 sm:gap-8 text-sm md:text-base py-6 lg:py-8 md:grid-cols-4 px-10 sm:px-16 text-white">
           <div>
-            <h1 className="text-5xl font-bold"> owudev</h1>
+            <h1 className="text-5xl font-bold">Owudev.</h1>
             <div className="flex mt-4 sm:justify-start md:mt-5 space-x-5 rtl:space-x-reverse">
               <a href="#" className="text-gray-400 hover:text-gray-900 dark:hover:text-white">
                 <svg className="w-4 h-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 8 19">
@@ -124,7 +124,7 @@ const Footer = () => {
         <hr className="opacity-25" />
         <div className="px-4 py-6  md:flex md:items-center md:justify-between">
           <span className="text-sm text-gray-400 dark:text-gray-300 sm:text-center">
-            © 2024 <a href="https://flowbite.com/">OwuDev™</a>. All Rights Reserved.
+            © 2024 <a href="https://flowbite.com/">Owudev</a>. All Rights Reserved.
           </span>
         </div>
       </div>

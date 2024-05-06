@@ -1,7 +1,12 @@
-import imgClient1 from '../../assets/images/client1.png';
-import imgClient2 from '../../assets/images/client2.png';
-import imgClient3 from '../../assets/images/client3.png';
-import imgClient4 from '../../assets/images/client4.png';
+import imgClient1 from '../../assets/images/Logo-Kabupaten-Pekalongan-removebg-preview.png';
+import imgClient2 from '../../assets/images/bkipm-removebg-preview.png';
+import imgClient3 from '../../assets/images/farmhill-group.png';
+import imgClient4 from '../../assets/images/karimlogo.png';
+import imgClient5 from '../../assets/images/sman12tangsel-removebg-preview.png';
+import imgClient6 from '../../assets/images/logo_kabupaten_pemalang-removebg-preview.png';
+import imgClient7 from '../../assets/images/logo-djpb-removebg-preview.png';
+import imgClient8 from '../../assets/images/WhatsApp_Image_2024-05-07_at_03.27.06-removebg-preview.png';
+import imgClient9 from '../../assets/images/klflogo.png';
 3;
 const Client = () => {
   return (
@@ -12,14 +17,21 @@ const Client = () => {
           <h1 className="text-3xl font-bold text-center">Client Kami</h1>
           <div className="w-1/5 sm:w-1/4 border-t border-indigo-900 ml-4"></div>
         </div>
-        <p className="text-center mt-3 text-sm sm:text-md lg:px-52 text-gray-600">Kepercayaan pelanggan adalah kebanggaan kami. Para pelanggan mempercayakan pengembangan website bersama kami. Kini saatnya anda menjadi bagian dari kami. </p>
+        <p className="text-center mt-3 text-sm sm:text-md lg:px-52 text-gray-600">Kepercayaan pelanggan adalah kebanggaan kami, para klien mempercayakan pengembangan website bersama kami, kini saatnya Anda mengembangkan bisnis Anda.</p>
       </div>
-      <marquee behavior="" direction="left"></marquee>
-      <div className="flex justify-center gap-4 sm:gap-10">
-        <img src={imgClient1} className="h-16 sm:h-28" alt="" />
-        <img src={imgClient2} className="h-16 sm:h-28" alt="" />
-        <img src={imgClient3} className="h-16 sm:h-28" alt="" />
-        <img src={imgClient4} className="h-16 sm:h-28" alt="" />
+      <marquee behavior="" direction="left">
+        {' '}
+      </marquee>
+      <div className="flex justify-center items-center gap-4 sm:gap-10">
+        <img src={imgClient2} className="h-16 " alt="" />
+        <img src={imgClient1} className="h-16 " alt="" />
+        <img src={imgClient3} className="h-12" alt="" />
+        <img src={imgClient4} className="h-16 " alt="" />
+        <img src={imgClient5} className="h-16 " alt="" />
+        <img src={imgClient6} className="h-16 " alt="" />
+        <img src={imgClient7} className="h-16 " alt="" />
+        <img src={imgClient8} className="h-16 " alt="" />
+        <img src={imgClient9} className="h-16 " alt="" />
       </div>
     </div>
   );

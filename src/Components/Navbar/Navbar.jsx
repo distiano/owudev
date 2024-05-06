@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 import { Dialog } from '@headlessui/react';
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline';
 import { Link } from 'react-router-dom';
-import logo from '../../assets/images/owudev.png';
+import logo from '../../assets/images/logo owudev2.png';
 
 const navigation = [
   { name: 'Home', href: '/' },
@@ -33,11 +33,13 @@ export default function Example() {
 
   return (
     <header className={`fixed top-0 left-0 right-0 z-50 ${isScrolled ? 'bg-white' : ''}`} style={{ transition: 'background-color 0.3s ease' }}>
-      <nav className="flex items-center justify-between p-3 xl:p-6 lg:px-8 shadow" aria-label="Global">
+      <nav className="flex items-center justify-between p-3 lg:px-8 shadow" aria-label="Global">
         <div className="flex lg:flex-1">
           <a href="#" className="-m-1.5 p-1.5">
             <span className="sr-only">Your Company</span>
-            <h3 className="text-3xl font-bold text-blue-500">Owudev.</h3>{' '}
+            <div className="h-10 font-bold text-blue-500">
+              <img src={logo} className="size-full" alt="" />
+            </div>{' '}
           </a>
         </div>
         <div className="flex lg:hidden">

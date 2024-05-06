@@ -12,8 +12,8 @@ const Portofolio = () => {
         <h1 className="text-3xl font-bold text-center">Portofolio</h1>
         <div className="w-1/4 border-t border-indigo-900 ml-4"></div>
       </div>{' '}
-      <p className="text-center mt-3 text-sm sm:text-md lg:px-52 text-gray-600">Beberapa portofilo website dan aplikasi klien yang sudah kami kerjakan sebelumnya </p>
-      <div className="grid  gap-4 sm:grid-cols-2 xl:grid-cols-3 sm:gap-5 mt-10">
+      <p className="text-center mt-3 text-sm sm:text-md lg:px-52 text-gray-600">Beberapa portofilo website dan aplikasi klien yang telah kami kerjakan.</p>
+      <div className="grid  gap-4 sm:grid-cols-2 lg:grid-cols-2 sm:gap-10 mt-10">
         {portofolio.map((portofolio, index) => (
           <div className="h-38  " key={index}>
             {/* <Link to={`/portofolio/${portofolio.id}`}> */}
@@ -28,18 +28,24 @@ const Portofolio = () => {
                       View
                       <FaArrowRightToBracket className="ml-1" />
                     </div> */}
-                  <div className="absolute bottom-0 left-0 w-full bg-white py-2 px-4  opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                  {/* <div className="absolute bottom-0 left-0 w-full bg-white py-2 px-4  opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                     <h3 className="text-sm  font-semibold">{portofolio.judul}</h3>
-                  </div>
+                  </div> */}
                 </div>
               </div>
             </div>
             {/* </Link> */}
-            <div className="sm:hidden">
-              <h4 className=" font-bold mt-1">{portofolio.judul}</h4>
+            <div className="">
+              <h4 className=" text-xl font-bold mt-1">{portofolio.judul}</h4>
             </div>
           </div>
         ))}
+      </div>
+      <div className="flex justify-center mt-10">
+        <div href="#" className="flex items-center justify-center w-32 rounded-lg text-sm sm:text-md px-4 py-2 bg-blue-500 text-white hover:bg-blue-700 hover:text-white">
+          View More
+          <FaArrowRightToBracket className="ml-1" />
+        </div>
       </div>
     </div>
   );
