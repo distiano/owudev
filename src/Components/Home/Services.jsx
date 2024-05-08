@@ -6,6 +6,18 @@ import { MdOutlineKeyboardArrowDown } from 'react-icons/md';
 import imgAbout from '../../assets/images/gambar3.png';
 import paket1 from '../../assets/images/imgpaket1.png';
 import { Link } from 'react-router-dom';
+import html from '../../assets/images/tools/html.png';
+import css from '../../assets/images/tools/css.png';
+import js from '../../assets/images/tools/javascript.png';
+import tailwind from '../../assets/images/tools/tailwind.png';
+import reactjs from '../../assets/images/tools/reactjs.png';
+import nextjs from '../../assets/images/tools/nextjs.png';
+import expressjs from '../../assets/images/tools/expressjs.png';
+import laravel from '../../assets/images/tools/laravel.png';
+import codeigniter from '../../assets/images/tools/codeigniter.png';
+import firebase from '../../assets/images/tools/firebase (2).png';
+import mongodb from '../../assets/images/tools/mongodb.png';
+import mysql from '../../assets/images/tools/mysql.png';
 
 const Services = () => {
   return (
@@ -26,7 +38,8 @@ const Services = () => {
           </div>
           <div>
             <p className="text-gray-600">
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias, impedit! Enim, fugit maiores eius illo hic ratione nam voluptas at voluptates assumenda, tempore iusto quisquam sunt unde cumque molestiae labore?
+              Layanan ini mencakup pengembangan dan pembuatan situs web yang responsif dan menarik. Kami menggunakan teknologi terbaru untuk memastikan situs web Anda memiliki tampilan yang kreatif, fungsional, dan sesuai dengan kebutuhan
+              bisnis Anda. Dari situs web perusahaan hingga toko online, kami dapat membantu Anda membangun kehadiran online yang profesional dan efektif.{' '}
             </p>
           </div>
           <div>
@@ -40,7 +53,8 @@ const Services = () => {
           </div>
           <div>
             <p className="text-gray-600">
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias, impedit! Enim, fugit maiores eius illo hic ratione nam voluptas at voluptates assumenda, tempore iusto quisquam sunt unde cumque molestiae labore?
+              Kami menyediakan layanan pengembangan aplikasi mobile untuk platform iOS dan Android. Tim pengembang kami berpengalaman dalam menciptakan aplikasi mobile yang inovatif dan mudah digunakan, dari konsep hingga peluncuran. Dengan
+              fokus pada pengalaman pengguna yang unggul dan kinerja yang optimal, kami membantu Anda menghadirkan aplikasi yang memenuhi kebutuhan pengguna Anda dan mencapai tujuan bisnis Anda.
             </p>
           </div>
           <div>
@@ -54,7 +68,8 @@ const Services = () => {
           </div>
           <div>
             <p className="text-gray-600">
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias, impedit! Enim, fugit maiores eius illo hic ratione nam voluptas at voluptates assumenda, tempore iusto quisquam sunt unde cumque molestiae labore?
+              Kami menawarkan solusi pembuatan virtual showroom yang memungkinkan Anda untuk memamerkan produk atau properti secara digital dalam lingkungan 3D yang realistis. Dari rumah hunian hingga mobil dan produk konsumen lainnya, kami
+              memungkinkan Anda untuk memberikan pengalaman interaktif kepada pelanggan Anda tanpa perlu datang ke lokasi fisik. Dengan teknologi canggih, kami membantu Anda menciptakan presentasi produk yang mengesankan dan memikat.
             </p>
           </div>
           <div>
@@ -68,13 +83,29 @@ const Services = () => {
           </div>
           <div>
             <p className="text-gray-600">
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias, impedit! Enim, fugit maiores eius illo hic ratione nam voluptas at voluptates assumenda, tempore iusto quisquam sunt unde cumque molestiae labore?
+              Layanan ini dirancang untuk membantu Anda mengembangkan game yang menarik dan menghibur untuk berbagai platform, termasuk PC, konsol, dan perangkat mobile. Tim pengembang game kami memiliki keahlian dalam berbagai genre, mulai
+              dari game aksi hingga teka-teki dan simulasi. Dengan fokus pada desain kreatif, gameplay yang adiktif, dan grafis yang memukau, kami membantu Anda menciptakan pengalaman game yang tak terlupakan bagi para pemain Anda.
             </p>
           </div>
           <div>
             <FaArrowUpRightFromSquare className="size-6 text-slate-400" />
           </div>
         </div>
+      </div>
+      {/* Tools */}
+      <div className="flex flex-wrap pt-10 gap-5 justify-center">
+        <img src={html} className="h-16" alt="" />
+        <img src={css} className="h-16" alt="" />
+        <img src={js} className="h-16" alt="" />
+        <img src={reactjs} className="h-16" alt="" />
+        <img src={nextjs} className="h-16" alt="" />
+        <img src={expressjs} className="h-16" alt="" />
+        <img src={tailwind} className="h-16" alt="" />
+        <img src={laravel} className="h-16" alt="" />
+        <img src={codeigniter} className="h-16" alt="" />
+        <img src={firebase} className="h-16" alt="" />
+        <img src={mongodb} className="h-16" alt="" />
+        <img src={mysql} className="h-16" alt="" />
       </div>
       {/* Produk Layanan */}
       <div className="py-16">
@@ -88,7 +119,7 @@ const Services = () => {
         </p>
       </div>
       <div className="grid sm:grid-cols-2 xl:grid-cols-4 gap-4 md:gap-12 xl:gap-4">
-        <div className="p-5 text-center rounded-2xl bg-white" style={{ boxShadow: '1px 4px 4px 4px #00000040' }}>
+        <div className="p-5 text-center rounded-2xl bg-white hover:scale-105 transition-transform duration-300" style={{ boxShadow: '1px 4px 4px 4px #00000040' }}>
           <h6 className="text-base text-gray-600">Paket Website</h6>
           <h4 className="text-xl font-bold mb-2">Company Profile</h4>
           <small className="text-xs text-gray-600">Profil bisnis perusahaan, UMKM</small>
@@ -100,7 +131,7 @@ const Services = () => {
             <h6 className="font-bold text-sm line-through">Rp 1.000.000</h6>
             <h6 className="bg-red-500 text-sm text-white px-5 py-1 rounded-2xl font-bold">Diskon 15%</h6>
           </div>
-          <h3 className="text-blue-500 text-4xl font-bold mt-3">Rp 850.000</h3>
+          <h3 className="text-blue-500 text-3xl font-bold mt-3">Rp 850.000</h3>
           <div className=" mt-5 ">
             <div className="flex justify-between items-center mt-2 ">
               <div className="flex gap-3 items-center">
@@ -120,17 +151,18 @@ const Services = () => {
               </div>
               <p className="text-xs font-semibold">Gratis</p>
             </div>
-            <div className="flex justify-between items-center mt-2">
-              <div className="flex gap-3 items-center">
-                <FaRegCheckCircle className="text-blue-500" /> <p className="text-xs text-gray-600 font-semibold">Desain Responsive</p>
-              </div>
-              <p className="text-xs font-semibold">Ya</p>
-            </div>
+
             <div className="flex justify-between items-center mt-2">
               <div className="flex gap-3 items-center">
                 <FaRegCheckCircle className="text-blue-500" /> <p className="text-xs text-gray-600 font-semibold">Desain Web</p>
               </div>
               <p className="text-xs font-semibold">Gratis</p>
+            </div>
+            <div className="flex justify-between items-center mt-2">
+              <div className="flex gap-3 items-center">
+                <FaRegCheckCircle className="text-blue-500" /> <p className="text-xs text-gray-600 font-semibold">Desain Responsive</p>
+              </div>
+              <p className="text-xs font-semibold">Ya</p>
             </div>
             <div className="flex justify-between items-center mt-2">
               <div className="flex gap-3 items-center ">
@@ -159,9 +191,9 @@ const Services = () => {
           </div>
           <p className="text-blue-500 text-xs mt-3 font-semibold">Perpanjangan Mulai</p>
           <h3 className="text-blue-500 text-2xl font-bold mt-3">Rp 300 Ribu/Tahun</h3>
-          <button className="mt-4 bg-blue-500 text-white w-56 h-11 rounded-2xl font-bold">Pilih Paket</button>
+          <button className="mt-4 bg-blue-500 text-white w-56 h-11 rounded-2xl font-bold hover:bg-blue-800 transition duration-300 ease-in-out">Pilih Paket</button>
         </div>
-        <div className="p-5 text-center rounded-2xl bg-white" style={{ boxShadow: '1px 4px 4px 4px #00000040' }}>
+        <div className="p-5 text-center rounded-2xl bg-white hover:scale-105 transition-transform duration-300" style={{ boxShadow: '1px 4px 4px 4px #00000040' }}>
           <h6 className="text-base text-gray-600">Paket Website</h6>
           <h4 className="text-xl font-bold mb-2">E-Commerce</h4>
           <small className="text-xs text-gray-600">Toko online, Katalog</small>
@@ -173,7 +205,7 @@ const Services = () => {
             <h6 className="font-bold text-sm line-through">Rp 2.000.000</h6>
             <h6 className="bg-red-500 text-sm text-white px-5 py-1 rounded-2xl font-bold">Diskon 20%</h6>
           </div>
-          <h3 className="text-blue-500 text-4xl font-bold mt-3">Rp 1.500.000</h3>
+          <h3 className="text-blue-500 text-3xl font-bold mt-3">Rp 1.500.000</h3>
           <div className=" mt-5 ">
             <div className="flex justify-between items-center mt-2 ">
               <div className="flex gap-3 items-center">
@@ -193,17 +225,18 @@ const Services = () => {
               </div>
               <p className="text-xs font-semibold">Gratis</p>
             </div>
-            <div className="flex justify-between items-center mt-2">
-              <div className="flex gap-3 items-center">
-                <FaRegCheckCircle className="text-blue-500" /> <p className="text-xs text-gray-600 font-semibold">Desain Responsive</p>
-              </div>
-              <p className="text-xs font-semibold">Ya</p>
-            </div>
+
             <div className="flex justify-between items-center mt-2">
               <div className="flex gap-3 items-center">
                 <FaRegCheckCircle className="text-blue-500" /> <p className="text-xs text-gray-600 font-semibold">Desain Web</p>
               </div>
               <p className="text-xs font-semibold">Gratis</p>
+            </div>
+            <div className="flex justify-between items-center mt-2">
+              <div className="flex gap-3 items-center">
+                <FaRegCheckCircle className="text-blue-500" /> <p className="text-xs text-gray-600 font-semibold">Desain Responsive</p>
+              </div>
+              <p className="text-xs font-semibold">Ya</p>
             </div>
             <div className="flex justify-between items-center mt-2">
               <div className="flex gap-3 items-center ">
@@ -232,9 +265,9 @@ const Services = () => {
           </div>
           <p className="text-blue-500 text-xs mt-3 font-semibold">Perpanjangan Mulai</p>
           <h3 className="text-blue-500 text-2xl font-bold mt-3">Rp 300 Ribu/Tahun</h3>
-          <button className="mt-4 bg-blue-500 text-white w-56 h-11 rounded-2xl font-bold">Pilih Paket</button>
+          <button className="mt-4 bg-blue-500 text-white w-56 h-11 rounded-2xl font-bold hover:bg-blue-800 transition duration-300 ease-in-out">Pilih Paket</button>
         </div>
-        <div className="p-5 text-center rounded-2xl bg-white" style={{ boxShadow: '1px 4px 4px 4px #00000040' }}>
+        <div className="p-5 text-center rounded-2xl bg-white hover:scale-105 transition-transform duration-300" style={{ boxShadow: '1px 4px 4px 4px #00000040' }}>
           <h6 className="text-base text-gray-600">Paket Website</h6>
           <h4 className="text-xl font-bold mb-2">Virtual Showroom</h4>
           <small className="text-xs text-gray-600">3D Virtual Showroom</small>
@@ -246,7 +279,7 @@ const Services = () => {
             <h6 className="font-bold text-sm line-through">Rp 3.150.000</h6>
             <h6 className="bg-red-500 text-sm text-white px-5 py-1 rounded-2xl font-bold">Diskon 25%</h6>
           </div>
-          <h3 className="text-blue-500 text-4xl font-bold mt-3">Rp 2.500.000</h3>
+          <h3 className="text-blue-500 text-3xl font-bold mt-3">Rp 2.500.000</h3>
           <div className=" mt-5 ">
             <div className="flex justify-between items-center mt-2 ">
               <div className="flex gap-3 items-center">
@@ -266,17 +299,18 @@ const Services = () => {
               </div>
               <p className="text-xs font-semibold">Gratis</p>
             </div>
+
+            <div className="flex justify-between items-center mt-2">
+              <div className="flex gap-3 items-center">
+                <FaRegCheckCircle className="text-blue-500" /> <p className="text-xs text-gray-600 font-semibold">3D Modelling</p>
+              </div>
+              <p className="text-xs font-semibold">Gratis</p>
+            </div>
             <div className="flex justify-between items-center mt-2">
               <div className="flex gap-3 items-center">
                 <FaRegCheckCircle className="text-blue-500" /> <p className="text-xs text-gray-600 font-semibold">Desain Responsive</p>
               </div>
               <p className="text-xs font-semibold">Ya</p>
-            </div>
-            <div className="flex justify-between items-center mt-2">
-              <div className="flex gap-3 items-center">
-                <FaRegCheckCircle className="text-blue-500" /> <p className="text-xs text-gray-600 font-semibold">Desain Web</p>
-              </div>
-              <p className="text-xs font-semibold">Gratis</p>
             </div>
             <div className="flex justify-between items-center mt-2">
               <div className="flex gap-3 items-center ">
@@ -305,9 +339,9 @@ const Services = () => {
           </div>
           <p className="text-blue-500 text-xs mt-3 font-semibold">Perpanjangan Mulai</p>
           <h3 className="text-blue-500 text-2xl font-bold mt-3">Rp 500 Ribu/Tahun</h3>
-          <button className="mt-4 bg-blue-500 text-white w-56 h-11 rounded-2xl font-bold">Pilih Paket</button>
+          <button className="mt-4 bg-blue-500 text-white w-56 h-11 rounded-2xl font-bold hover:bg-blue-800 transition duration-300 ease-in-out">Pilih Paket</button>
         </div>
-        <div className="p-5 text-center rounded-2xl bg-white" style={{ boxShadow: '1px 4px 4px 4px #00000040' }}>
+        <div className="p-5 text-center rounded-2xl bg-white hover:scale-105 transition-transform duration-300" style={{ boxShadow: '1px 4px 4px 4px #00000040' }}>
           <h6 className="text-base text-gray-600">Paket Website</h6>
           <h4 className="text-xl font-bold mb-2">Custom</h4>
           <small className="text-xs text-gray-600">Website Custom</small>
@@ -319,7 +353,7 @@ const Services = () => {
             <h6 className="font-bold text-sm line-through">Rp 5.200.000</h6>
             <h6 className="bg-red-500 text-sm text-white px-5 py-1 rounded-2xl font-bold">Diskon 30%</h6>
           </div>
-          <h3 className="text-blue-500 text-4xl font-bold mt-3">Rp 4.000.000</h3>
+          <h3 className="text-blue-500 text-3xl font-bold mt-3">Rp 4.000.000</h3>
           <div className=" mt-5 ">
             <div className="flex justify-between items-center mt-2 ">
               <div className="flex gap-3 items-center">
@@ -339,17 +373,18 @@ const Services = () => {
               </div>
               <p className="text-xs font-semibold">Gratis</p>
             </div>
-            <div className="flex justify-between items-center mt-2">
-              <div className="flex gap-3 items-center">
-                <FaRegCheckCircle className="text-blue-500" /> <p className="text-xs text-gray-600 font-semibold">Desain Responsive</p>
-              </div>
-              <p className="text-xs font-semibold">Ya</p>
-            </div>
+
             <div className="flex justify-between items-center mt-2">
               <div className="flex gap-3 items-center">
                 <FaRegCheckCircle className="text-blue-500" /> <p className="text-xs text-gray-600 font-semibold">Desain Web</p>
               </div>
               <p className="text-xs font-semibold">Gratis</p>
+            </div>
+            <div className="flex justify-between items-center mt-2">
+              <div className="flex gap-3 items-center">
+                <FaRegCheckCircle className="text-blue-500" /> <p className="text-xs text-gray-600 font-semibold">Desain Responsive</p>
+              </div>
+              <p className="text-xs font-semibold">Ya</p>
             </div>
             <div className="flex justify-between items-center mt-2">
               <div className="flex gap-3 items-center ">
@@ -378,7 +413,7 @@ const Services = () => {
           </div>
           <p className="text-blue-500 text-xs mt-3 font-semibold">Perpanjangan Mulai</p>
           <h3 className="text-blue-500 text-2xl font-bold mt-3">Rp 1 Juta/Tahun</h3>
-          <button className="mt-4 bg-blue-500 text-white w-56 h-11 rounded-2xl font-bold">Pilih Paket</button>
+          <button className="mt-4 bg-blue-500 text-white w-56 h-11 rounded-2xl font-bold hover:bg-blue-800 transition duration-300 ease-in-out">Pilih Paket</button>
         </div>
       </div>
       {/* KelebiihN */}

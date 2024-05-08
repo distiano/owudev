@@ -3,6 +3,7 @@ import { Dialog } from '@headlessui/react';
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline';
 import { Link } from 'react-router-dom';
 import logo from '../../assets/images/logo owudev2.png';
+import logo2 from '../../assets/images/logoremovebg3.png';
 
 const navigation = [
   { name: 'Home', href: '/' },
@@ -38,7 +39,7 @@ export default function Example() {
           <a href="#" className="-m-1.5 p-1.5">
             <span className="sr-only">Your Company</span>
             <div className="h-10 font-bold text-blue-500">
-              <img src={logo} className="size-full" alt="" />
+              <img src={logo} className="h-8 md:h-10 size-full" alt="" />
             </div>{' '}
           </a>
         </div>
@@ -50,13 +51,13 @@ export default function Example() {
         </div>
         <div className="hidden lg:flex lg:gap-x-12 ">
           {navigation.map((item) => (
-            <Link key={item.name} to={item.href} className={`text-sm font-bold ${isScrolled ? 'text-gray-900' : 'text-gray-600'} hover:text-indigo-400`}>
+            <Link key={item.name} to={item.href} className={`text-sm font-bold ${isScrolled ? 'text-gray-900' : 'text-gray-600'} hover:text-blue-500 transition duration-300 ease-in-out`}>
               {item.name}
             </Link>
           ))}
         </div>
         <div className="hidden lg:flex lg:flex-1 lg:justify-end ">
-          <a href="#" className="bg-blue-500 px-3 py-2 rounded-2xl w-48 text-sm font-semibold leading-6 text-white text-center">
+          <a href="#" className="bg-blue-500 px-3 py-2 rounded-2xl w-48 text-sm font-semibold leading-6 text-white text-center hover:bg-blue-800 transition duration-300 ease-in-out">
             Contact Us <span aria-hidden="true">&rarr;</span>
           </a>
         </div>
@@ -67,7 +68,7 @@ export default function Example() {
           <div className="flex items-center justify-between">
             <a href="#" className="-m-1.5 p-1.5">
               <span className="sr-only">Your Company</span>
-              <img className="h-8 w-auto" src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600" alt="" />
+              <img className="h-8 w-auto" src={logo2} alt="" />
             </a>
             <button type="button" className="-m-2.5 rounded-md p-2.5 text-gray-700" onClick={() => setMobileMenuOpen(false)}>
               <span className="sr-only">Close menu</span>

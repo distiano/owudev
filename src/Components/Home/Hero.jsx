@@ -25,11 +25,19 @@ const Hero = () => {
                 sesusai dengan kebutuhan Anda.
               </p>
               <div className="mt-10 flex items-center justify-center sm:justify-normal gap-x-6">
-                <a href="#" className="text-center flex items-center justify-center gap-4 bg-blue-500 py-3 rounded-2xl text-sm font-bold text-white w-36 sm:w-56" style={{ boxShadow: ' 4px 4px 4px 0px #00000040' }}>
+                <a
+                  href="#"
+                  className="text-center flex items-center justify-center gap-4 bg-blue-500 py-3 rounded-2xl text-sm font-bold text-white w-36 sm:w-56 hover:bg-blue-800 transition duration-300 ease-in-out"
+                  style={{ boxShadow: ' 4px 4px 4px 0px #00000040' }}
+                >
                   <FaRegPaperPlane />
                   Get started
                 </a>
-                <a href="#" className="flex items-center justify-center gap-4 text-sm text-center bg-white py-2.5 w-40 sm:w-48 rounded-2xl font-semibold leading-6" style={{ boxShadow: ' 4px 4px 4px 0px #00000040' }}>
+                <a
+                  href="#"
+                  className="flex items-center justify-center gap-4 text-sm text-center bg-white py-2.5 w-40 sm:w-48 rounded-2xl font-semibold leading-6 hover:bg-slate-300 transition duration-300 ease-in-out"
+                  style={{ boxShadow: ' 4px 4px 4px 0px #00000040' }}
+                >
                   <IoIosArrowDropright className="size-5" />
                   Lihat Portofolio
                 </a>

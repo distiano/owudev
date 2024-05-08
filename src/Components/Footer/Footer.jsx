@@ -1,3 +1,14 @@
+import logo from '../../assets/images/logo owudev2.png';
+import bri from '../../assets/images/BRI.png';
+import bni from '../../assets/images/BNI.png';
+import bca from '../../assets/images/BCA.png';
+import mandiri from '../../assets/images/mandiri.png';
+import cimb from '../../assets/images/cimb.png';
+import dana from '../../assets/images/dana.png';
+import ovo from '../../assets/images/ovo.png';
+import shopeepay from '../../assets/images/shopeepay.png';
+import gopay from '../../assets/images/gopay.png';
+
 const Footer = () => {
   return (
     <footer className="bg-gradient-to-b from-blue-500 to-blue-700 mt-12 ">
@@ -80,7 +91,7 @@ const Footer = () => {
             <ul className=" ">
               <li className="mb-4">
                 <a href="#" className="hover:underline">
-                  Discord Server
+                  Instagram{' '}
                 </a>
               </li>
               <li className="mb-4">
@@ -101,24 +112,18 @@ const Footer = () => {
             </ul>
           </div>
           <div>
-            <h2 className="mb-3 sm:mb-6 text-base font-bold ">Legal</h2>
-            <ul className=" ">
-              <li className="mb-4">
-                <a href="#" className="hover:underline">
-                  Privacy Policy
-                </a>
-              </li>
-              <li className="mb-4">
-                <a href="#" className="hover:underline">
-                  Licensing
-                </a>
-              </li>
-              <li className="mb-4">
-                <a href="#" className="hover:underline">
-                  Terms &amp; Conditions
-                </a>
-              </li>
-            </ul>
+            <h2 className="mb-3 sm:mb-6 text-base font-bold ">Metode Pembayaran</h2>
+            <div className="grid grid-cols-3 gap-5 items-center">
+              <img src={bri} alt="" />
+              <img src={bni} alt="" />
+              <img src={bca} alt="" />
+              <img src={mandiri} alt="" />
+              <img src={cimb} alt="" />
+              <img src={dana} alt="" />
+              <img src={ovo} alt="" />
+              <img src={shopeepay} alt="" />
+              <img src={gopay} alt="" />
+            </div>
           </div>
         </div>
         <hr className="opacity-25" />

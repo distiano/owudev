@@ -6,7 +6,7 @@ import imgClient5 from '../../assets/images/sman12tangsel-removebg-preview.png';
 import imgClient6 from '../../assets/images/logo_kabupaten_pemalang-removebg-preview.png';
 import imgClient7 from '../../assets/images/logo-djpb-removebg-preview.png';
 import imgClient8 from '../../assets/images/WhatsApp_Image_2024-05-07_at_03.27.06-removebg-preview.png';
-import imgClient9 from '../../assets/images/klflogo.png';
+import imgClient9 from '../../assets/images/logoklf.png';
 3;
 const Client = () => {
   return (
@@ -22,7 +22,7 @@ const Client = () => {
       <marquee behavior="" direction="left">
         {' '}
       </marquee>
-      <div className="flex flex-wrap justify-center items-center gap-4 sm:gap-10">
+      <div className="flex flex-wrap justify-center items-center gap-4 sm:gap-10 px-12">
         <img src={imgClient2} className="h-10 md:h-20 " alt="" />
         <img src={imgClient3} className="h-10 md:h-12" alt="" />
         <img src={imgClient1} className="h-10 md:h-16 " alt="" />
@@ -31,7 +31,7 @@ const Client = () => {
         <img src={imgClient6} className="h-10 md:h-16 " alt="" />
         <img src={imgClient7} className="h-10 md:h-16 " alt="" />
         <img src={imgClient8} className="h-10 md:h-16 " alt="" />
-        <img src={imgClient9} className="h-10 md:h-16 " alt="" />
+        <img src={imgClient9} className="h-10 md:h-20 " alt="" />
       </div>
     </div>
   );
