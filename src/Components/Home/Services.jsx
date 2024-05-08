@@ -4,7 +4,7 @@ import { GrVirtualMachine } from 'react-icons/gr';
 import { FaArrowUpRightFromSquare } from 'react-icons/fa6';
 import { MdOutlineKeyboardArrowDown } from 'react-icons/md';
 import imgAbout from '../../assets/images/gambar3.png';
-import paket1 from '../../assets/images/imgpaket1.png';
+import paket1 from '../../assets/images/compro.png';
 import { Link } from 'react-router-dom';
 import html from '../../assets/images/tools/html.png';
 import css from '../../assets/images/tools/css.png';
@@ -30,7 +30,7 @@ const Services = () => {
       <p className="text-center mt-3 text-sm sm:text-md lg:px-52 text-gray-600">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum modi voluptate dolor tenetur fugit sed. Dignissimos expedita sed inventore delectus neque, ratione molestiae, omnis magnam optio deleniti est voluptates perferendis.
       </p>
-      <div className="mt-10 grid sm:grid-cols-2 gap-6">
+      <div className="mt-10 grid lg:grid-cols-2 gap-6">
         <div className="p-6 text-sm rounded-lg bg-blue-200 flex gap-5 shadow-lg justify-between items-center ">
           <div className="">
             <CgWebsite className="size-8" />
@@ -42,7 +42,7 @@ const Services = () => {
               bisnis Anda. Dari situs web perusahaan hingga toko online, kami dapat membantu Anda membangun kehadiran online yang profesional dan efektif.{' '}
             </p>
           </div>
-          <div>
+          <div className="hidden lg:flex">
             <FaArrowUpRightFromSquare className="size-6 text-slate-400" />
           </div>
         </div>
@@ -57,7 +57,7 @@ const Services = () => {
               fokus pada pengalaman pengguna yang unggul dan kinerja yang optimal, kami membantu Anda menghadirkan aplikasi yang memenuhi kebutuhan pengguna Anda dan mencapai tujuan bisnis Anda.
             </p>
           </div>
-          <div>
+          <div className="hidden lg:flex">
             <FaArrowUpRightFromSquare className="size-6 text-slate-400" />
           </div>
         </div>
@@ -72,7 +72,7 @@ const Services = () => {
               memungkinkan Anda untuk memberikan pengalaman interaktif kepada pelanggan Anda tanpa perlu datang ke lokasi fisik. Dengan teknologi canggih, kami membantu Anda menciptakan presentasi produk yang mengesankan dan memikat.
             </p>
           </div>
-          <div>
+          <div className="hidden lg:flex">
             <FaArrowUpRightFromSquare className="size-6 text-slate-400" />
           </div>
         </div>
@@ -87,7 +87,7 @@ const Services = () => {
               dari game aksi hingga teka-teki dan simulasi. Dengan fokus pada desain kreatif, gameplay yang adiktif, dan grafis yang memukau, kami membantu Anda menciptakan pengalaman game yang tak terlupakan bagi para pemain Anda.
             </p>
           </div>
-          <div>
+          <div className="hidden lg:flex">
             <FaArrowUpRightFromSquare className="size-6 text-slate-400" />
           </div>
         </div>
@@ -119,7 +119,7 @@ const Services = () => {
         </p>
       </div>
       <div className="grid sm:grid-cols-2 xl:grid-cols-4 gap-4 md:gap-12 xl:gap-4">
-        <div className="p-5 text-center rounded-2xl bg-white hover:scale-105 transition-transform duration-300" style={{ boxShadow: '1px 4px 4px 4px #00000040' }}>
+        <div className="p-5 text-center rounded-2xl bg-white md:hover:scale-105 transition-transform duration-300" style={{ boxShadow: '1px 4px 4px 4px #00000040' }}>
           <h6 className="text-base text-gray-600">Paket Website</h6>
           <h4 className="text-xl font-bold mb-2">Company Profile</h4>
           <small className="text-xs text-gray-600">Profil bisnis perusahaan, UMKM</small>
@@ -193,7 +193,7 @@ const Services = () => {
           <h3 className="text-blue-500 text-2xl font-bold mt-3">Rp 300 Ribu/Tahun</h3>
           <button className="mt-4 bg-blue-500 text-white w-56 h-11 rounded-2xl font-bold hover:bg-blue-800 transition duration-300 ease-in-out">Pilih Paket</button>
         </div>
-        <div className="p-5 text-center rounded-2xl bg-white hover:scale-105 transition-transform duration-300" style={{ boxShadow: '1px 4px 4px 4px #00000040' }}>
+        <div className="p-5 text-center rounded-2xl bg-white md:hover:scale-105 transition-transform duration-300" style={{ boxShadow: '1px 4px 4px 4px #00000040' }}>
           <h6 className="text-base text-gray-600">Paket Website</h6>
           <h4 className="text-xl font-bold mb-2">E-Commerce</h4>
           <small className="text-xs text-gray-600">Toko online, Katalog</small>
@@ -267,7 +267,7 @@ const Services = () => {
           <h3 className="text-blue-500 text-2xl font-bold mt-3">Rp 300 Ribu/Tahun</h3>
           <button className="mt-4 bg-blue-500 text-white w-56 h-11 rounded-2xl font-bold hover:bg-blue-800 transition duration-300 ease-in-out">Pilih Paket</button>
         </div>
-        <div className="p-5 text-center rounded-2xl bg-white hover:scale-105 transition-transform duration-300" style={{ boxShadow: '1px 4px 4px 4px #00000040' }}>
+        <div className="p-5 text-center rounded-2xl bg-white md:hover:scale-105 transition-transform duration-300" style={{ boxShadow: '1px 4px 4px 4px #00000040' }}>
           <h6 className="text-base text-gray-600">Paket Website</h6>
           <h4 className="text-xl font-bold mb-2">Virtual Showroom</h4>
           <small className="text-xs text-gray-600">3D Virtual Showroom</small>
@@ -341,7 +341,7 @@ const Services = () => {
           <h3 className="text-blue-500 text-2xl font-bold mt-3">Rp 500 Ribu/Tahun</h3>
           <button className="mt-4 bg-blue-500 text-white w-56 h-11 rounded-2xl font-bold hover:bg-blue-800 transition duration-300 ease-in-out">Pilih Paket</button>
         </div>
-        <div className="p-5 text-center rounded-2xl bg-white hover:scale-105 transition-transform duration-300" style={{ boxShadow: '1px 4px 4px 4px #00000040' }}>
+        <div className="p-5 text-center rounded-2xl bg-white md:hover:scale-105 transition-transform duration-300" style={{ boxShadow: '1px 4px 4px 4px #00000040' }}>
           <h6 className="text-base text-gray-600">Paket Website</h6>
           <h4 className="text-xl font-bold mb-2">Custom</h4>
           <small className="text-xs text-gray-600">Website Custom</small>

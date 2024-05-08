@@ -22,7 +22,7 @@ const PortofolioPage = () => {
         <div className="w-1/6 sm:w-1/4 border-t border-indigo-900 ml-4"></div>
       </div>{' '} */}
       <p className="text-center mt-3 text-sm sm:text-md lg:px-52 px-6">Beberapa portofilo website dan aplikasi klien yang telah kami kerjakan.</p>
-      <div className="grid grid-cols-1 gap-12 sm:grid-cols-2 lg:gap-16 py-10 px-6 lg:px-24">
+      <div className="grid grid-cols-1 gap-12 md:grid-cols-2 lg:gap-16 py-10 px-6 lg:px-24">
         {portofolio.map((item, index) => (
           <div className="relative group" key={index}>
             {/* <Link to={`/portofolio/${portofolio.id}`}> */}

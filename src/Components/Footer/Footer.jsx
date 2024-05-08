@@ -113,7 +113,7 @@ const Footer = () => {
           </div>
           <div>
             <h2 className="mb-3 sm:mb-6 text-base font-bold ">Metode Pembayaran</h2>
-            <div className="grid grid-cols-3 gap-5 items-center">
+            <div className="grid grid-cols-5 md:grid-cols-3 gap-5 items-center">
               <img src={bri} alt="" />
               <img src={bni} alt="" />
               <img src={bca} alt="" />
