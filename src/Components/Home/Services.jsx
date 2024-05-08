@@ -39,7 +39,7 @@ const Services = () => {
           <div>
             <p className="text-gray-600">
               Layanan ini mencakup pengembangan dan pembuatan situs web yang responsif dan menarik. Kami menggunakan teknologi terbaru untuk memastikan situs web Anda memiliki tampilan yang kreatif, fungsional, dan sesuai dengan kebutuhan
-              bisnis Anda. Dari situs web perusahaan hingga toko online, kami dapat membantu Anda membangun kehadiran online yang profesional dan efektif.{' '}
+              bisnis Anda.
             </p>
           </div>
           <div className="hidden lg:flex">
@@ -53,8 +53,8 @@ const Services = () => {
           </div>
           <div>
             <p className="text-gray-600">
-              Kami menyediakan layanan pengembangan aplikasi mobile untuk platform iOS dan Android. Tim pengembang kami berpengalaman dalam menciptakan aplikasi mobile yang inovatif dan mudah digunakan, dari konsep hingga peluncuran. Dengan
-              fokus pada pengalaman pengguna yang unggul dan kinerja yang optimal, kami membantu Anda menghadirkan aplikasi yang memenuhi kebutuhan pengguna Anda dan mencapai tujuan bisnis Anda.
+              Layanan kami mencakup pengembangan aplikasi mobile inovatif untuk platform iOS dan Android, dengan fokus pada pengalaman pengguna yang unggul dan kinerja optimal, kami membantu Anda menghadirkan aplikasi yang memenuhi
+              kebutuhan Anda dan mencapai tujuan bisnis Anda.
             </p>
           </div>
           <div className="hidden lg:flex">
@@ -68,8 +68,8 @@ const Services = () => {
           </div>
           <div>
             <p className="text-gray-600">
-              Kami menawarkan solusi pembuatan virtual showroom yang memungkinkan Anda untuk memamerkan produk atau properti secara digital dalam lingkungan 3D yang realistis. Dari rumah hunian hingga mobil dan produk konsumen lainnya, kami
-              memungkinkan Anda untuk memberikan pengalaman interaktif kepada pelanggan Anda tanpa perlu datang ke lokasi fisik. Dengan teknologi canggih, kami membantu Anda menciptakan presentasi produk yang mengesankan dan memikat.
+              Solusi pembuatan virtual showroom kami memungkinkan Anda memamerkan produk dalam lingkungan 3D yang realistis, memberikan pengalaman interaktif kepada pelanggan tanpa perlu datang ke lokasi fisik, dengan teknologi canggih
+              untuk menciptakan presentasi produk yang memukau.
             </p>
           </div>
           <div className="hidden lg:flex">
@@ -82,10 +82,7 @@ const Services = () => {
             <h3 className="font-bold mt-3">Game Developer</h3>
           </div>
           <div>
-            <p className="text-gray-600">
-              Layanan ini dirancang untuk membantu Anda mengembangkan game yang menarik dan menghibur untuk berbagai platform, termasuk PC, konsol, dan perangkat mobile. Tim pengembang game kami memiliki keahlian dalam berbagai genre, mulai
-              dari game aksi hingga teka-teki dan simulasi. Dengan fokus pada desain kreatif, gameplay yang adiktif, dan grafis yang memukau, kami membantu Anda menciptakan pengalaman game yang tak terlupakan bagi para pemain Anda.
-            </p>
+            <p className="text-gray-600">Kami mengembangkan game menarik untuk berbagai platform, dari PC hingga perangkat mobile, dengan desain kreatif, gameplay adiktif, dan grafis memukau, menciptakan pengalaman game tak terlupakan.</p>
           </div>
           <div className="hidden lg:flex">
             <FaArrowUpRightFromSquare className="size-6 text-slate-400" />
