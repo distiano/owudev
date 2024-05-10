@@ -1,5 +1,5 @@
 import { CgWebsite } from 'react-icons/cg';
-import { FaMobileAlt, FaGuitar, FaRegCheckCircle } from 'react-icons/fa';
+import { FaMobileAlt, FaGamepad, FaRegCheckCircle } from 'react-icons/fa';
 import { GrVirtualMachine } from 'react-icons/gr';
 import { FaArrowUpRightFromSquare } from 'react-icons/fa6';
 import { MdOutlineKeyboardArrowDown } from 'react-icons/md';
@@ -34,57 +34,59 @@ const Services = () => {
         <div className="p-6 text-sm rounded-lg bg-blue-200 flex gap-5 shadow-lg justify-between items-center ">
           <div className="">
             <CgWebsite className="size-8" />
-            <h3 className="font-bold mt-3">Website Developer</h3>
+            <h3 className="font-bold mt-3">Website Application</h3>
           </div>
           <div>
-            <p className="text-gray-600">
+            <p className="text-gray-600 md:text-justify">
               Layanan ini mencakup pengembangan dan pembuatan situs web yang responsif dan menarik. Kami menggunakan teknologi terbaru untuk memastikan situs web Anda memiliki tampilan yang kreatif, fungsional, dan sesuai dengan kebutuhan
               bisnis Anda.
             </p>
           </div>
-          <div className="hidden lg:flex">
+          <div className="hidden lg:block">
             <FaArrowUpRightFromSquare className="size-6 text-slate-400" />
           </div>
         </div>
         <div className="p-6 text-sm rounded-lg bg-blue-200 flex gap-5 shadow-lg justify-between items-center ">
           <div className="">
             <FaMobileAlt className="size-8" />
-            <h3 className="font-bold mt-3">Mobile Developer</h3>
+            <h3 className="font-bold mt-3">Mobile Application</h3>
           </div>
           <div>
-            <p className="text-gray-600">
+            <p className="text-gray-600 md:text-justify">
               Layanan kami mencakup pengembangan aplikasi mobile inovatif untuk platform iOS dan Android, dengan fokus pada pengalaman pengguna yang unggul dan kinerja optimal, kami membantu Anda menghadirkan aplikasi yang memenuhi
               kebutuhan Anda dan mencapai tujuan bisnis Anda.
             </p>
           </div>
-          <div className="hidden lg:flex">
+          <div className="hidden lg:block">
             <FaArrowUpRightFromSquare className="size-6 text-slate-400" />
           </div>
         </div>
         <div className="p-6 text-sm rounded-lg bg-blue-200 flex gap-5 shadow-lg justify-between items-center ">
           <div className="">
             <GrVirtualMachine className="size-8" />
-            <h3 className="font-bold mt-3">Virtual Application</h3>
+            <h3 className="font-bold mt-3">Virtual Showroom</h3>
           </div>
           <div>
-            <p className="text-gray-600">
+            <p className="text-gray-600 md:text-justify">
               Solusi pembuatan virtual showroom kami memungkinkan Anda memamerkan produk dalam lingkungan 3D yang realistis, memberikan pengalaman interaktif kepada pelanggan tanpa perlu datang ke lokasi fisik, dengan teknologi canggih
               untuk menciptakan presentasi produk yang memukau.
             </p>
           </div>
-          <div className="hidden lg:flex">
+          <div className="hidden lg:block">
             <FaArrowUpRightFromSquare className="size-6 text-slate-400" />
           </div>
         </div>
         <div className="p-6 text-sm rounded-lg bg-blue-200 flex gap-5 shadow-lg justify-between items-center ">
           <div className="">
-            <FaGuitar className="size-8" />
-            <h3 className="font-bold mt-3">Game Developer</h3>
+            <FaGamepad className="size-8" />
+            <h3 className="font-bold mt-3">Mobile Game</h3>
           </div>
           <div>
-            <p className="text-gray-600">Kami mengembangkan game menarik untuk berbagai platform, dari PC hingga perangkat mobile, dengan desain kreatif, gameplay adiktif, dan grafis memukau, menciptakan pengalaman game tak terlupakan.</p>
+            <p className="text-gray-600 md:text-justify">
+              Kami mengembangkan game menarik untuk berbagai platform, dari PC hingga perangkat mobile, dengan desain kreatif, gameplay adiktif, dan grafis memukau, menciptakan pengalaman game tak terlupakan.
+            </p>
           </div>
-          <div className="hidden lg:flex">
+          <div className="hidden lg:block">
             <FaArrowUpRightFromSquare className="size-6 text-slate-400" />
           </div>
         </div>

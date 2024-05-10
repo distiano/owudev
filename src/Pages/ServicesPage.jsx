@@ -3,6 +3,10 @@ import Services from '../Components/Home/Services';
 import Footer from '../Components/Footer/Footer';
 
 const ServicesPage = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <>
       <Navbar />

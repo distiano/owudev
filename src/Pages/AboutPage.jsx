@@ -5,6 +5,10 @@ import gambar from '../assets/images/rake.png';
 import { FaInstagram, FaWhatsapp, FaGithub } from 'react-icons/fa';
 
 const AboutPage = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <>
       <Navbar />

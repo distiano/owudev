@@ -59,17 +59,30 @@ import absensi21 from '../images/porto/absensi-tambahkelas.png';
 import simangga1 from '../images/porto/simangga-login.png';
 import simangga2 from '../images/porto/simangga-register.png';
 import simangga3 from '../images/porto/simangga-anggaran.png';
-import doktergigi1 from '../images/porto/doktergigi-login.png';
-import doktergigi2 from '../images/porto/doktergigi-register.png';
-import doktergigi3 from '../images/porto/doktergigi-home.png';
-import doktergigi4 from '../images/porto/doktergigi-buatjanji.png';
-import doktergigi5 from '../images/porto/doktergigi-cetakjanji.png';
-import doktergigi6 from '../images/porto/doktergigi-cetakstruk.png';
-import doktergigi7 from '../images/porto/doktergigi-history.png';
-import doktergigi8 from '../images/porto/doktergigi-historydokter.png';
-import doktergigi9 from '../images/porto/doktergigi-janjitemu.png';
-import doktergigi10 from '../images/porto/doktergigi-tokoobat.png';
-import doktergigi11 from '../images/porto/doktergigi-tokoobatdokter.png';
+import klf1 from '../images/porto/klf (1).jpeg';
+import klf2 from '../images/porto/klf (2).jpeg';
+import klf3 from '../images/porto/klf (3).jpeg';
+import klf4 from '../images/porto/klf (4).jpeg';
+import klf5 from '../images/porto/klf (5).jpeg';
+import klf6 from '../images/porto/klf (6).jpeg';
+import klf7 from '../images/porto/klf (7).jpeg';
+import klf8 from '../images/porto/klf (8).jpeg';
+import klf9 from '../images/porto/klf (9).jpeg';
+import klf10 from '../images/porto/klf (10).jpeg';
+import klf11 from '../images/porto/klf (11).jpeg';
+import klf12 from '../images/porto/klf (12).jpeg';
+import klf13 from '../images/porto/klf (13).jpeg';
+import klf14 from '../images/porto/klf (14).jpeg';
+import akulahvalorant1 from '../images/porto/akulahvalorant (1).jpeg';
+import akulahvalorant2 from '../images/porto/akulahvalorant (2).jpeg';
+import sibanyumudal1 from '../images/porto/sibanyumudal (1).jpeg';
+import sibanyumudal2 from '../images/porto/sibanyumudal (2).jpeg';
+import sibanyumudal3 from '../images/porto/sibanyumudal (3).jpeg';
+import rentcar1 from '../images/porto/rentalmobil (4).png';
+import rentcar2 from '../images/porto/rentalmobil (5).png';
+import rentcar3 from '../images/porto/rentalmobil (1).png';
+import rentcar4 from '../images/porto/rentalmobil (2).png';
+import rentcar5 from '../images/porto/rentalmobil (3).png';
 
 const portofolio = [
   {
@@ -103,8 +116,23 @@ const portofolio = [
   },
   {
     id: 6,
-    images: [doktergigi1, doktergigi2, doktergigi3, doktergigi4, doktergigi5, doktergigi6, doktergigi7, doktergigi8, doktergigi9, doktergigi10, doktergigi11],
-    judul: 'Sistem Informasi Dokter Gigi',
+    images: [klf1, klf2, klf3, klf4, klf5, klf6, klf7, klf8, klf9, klf10, klf11, klf12, klf13, klf14],
+    judul: 'Aplikasi Kantor Karya Logam Furniture',
+  },
+  {
+    id: 7,
+    images: [akulahvalorant1, akulahvalorant2],
+    judul: 'Game',
+  },
+  {
+    id: 8,
+    images: [sibanyumudal1, sibanyumudal2, sibanyumudal3],
+    judul: 'Sistem Informasi Desa Banyumudal',
+  },
+  {
+    id: 9,
+    images: [rentcar1, rentcar2, rentcar3, rentcar4, rentcar5],
+    judul: 'Website Pemesanan Rental Mobil',
   },
 ];
 

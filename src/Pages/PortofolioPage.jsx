@@ -4,12 +4,20 @@ import portofolio from '../assets/data/portofolio';
 import { FaArrowRightToBracket } from 'react-icons/fa6';
 import { Link } from 'react-router-dom';
 import Footer from '../Components/Footer/Footer';
-import video1 from '../assets/video/video1.mp4';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import { Autoplay } from 'swiper/modules';
+import { useEffect } from 'react';
+import video1 from '../assets/video/video1.mp4';
+import video2 from '../assets/video/video2.mp4';
+import video3 from '../assets/video/video3.mp4';
+import video4 from '../assets/video/video4.mp4';
 
 const PortofolioPage = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <>
       <Navbar />
@@ -23,6 +31,58 @@ const PortofolioPage = () => {
       </div>{' '} */}
       <p className="text-center mt-3 text-sm sm:text-md lg:px-52 px-6">Beberapa portofilo website dan aplikasi klien yang telah kami kerjakan.</p>
       <div className="grid grid-cols-1 gap-12 md:grid-cols-2 lg:gap-16 py-10 px-6 lg:px-24">
+        <div className="">
+          {/* <Link to={`/portofolio/${portofolio.id}`}> */}
+          <div className="relative group">
+            <video autoPlay muted loop className="rounded-md">
+              <source src={video1} type="video/mp4" />
+              Your browser does not support the video tag.
+            </video>{' '}
+          </div>
+          {/* </Link> */}
+          <div className="">
+            <h4 className=" text-xl font-semibold mt-3">Landing Page</h4>
+          </div>
+        </div>
+        <div className="">
+          {/* <Link to={`/portofolio/${portofolio.id}`}> */}
+          <div className="relative group">
+            <video autoPlay muted loop className="rounded-md">
+              <source src={video2} type="video/mp4" />
+              Your browser does not support the video tag.
+            </video>{' '}
+          </div>
+          {/* </Link> */}
+          <div className="">
+            <h4 className=" text-xl font-semibold mt-3">Landing Page</h4>
+          </div>
+        </div>
+        <div className="">
+          {/* <Link to={`/portofolio/${portofolio.id}`}> */}
+          <div className="relative group">
+            <video autoPlay muted loop className="rounded-md">
+              <source src={video3} type="video/mp4" />
+              Your browser does not support the video tag.
+            </video>{' '}
+          </div>
+          {/* </Link> */}
+          <div className="">
+            <h4 className=" text-xl font-semibold mt-3">Landing Page</h4>
+          </div>
+        </div>
+        <div className="">
+          {/* <Link to={`/portofolio/${portofolio.id}`}> */}
+          <div className="relative group">
+            <video autoPlay muted loop className="rounded-md">
+              <source src={video4} type="video/mp4" />
+              Your browser does not support the video tag.
+            </video>{' '}
+          </div>
+          {/* </Link> */}
+          <div className="">
+            <h4 className=" text-xl font-semibold mt-3">Virtual Showroom</h4>
+          </div>
+        </div>
         {portofolio.map((item, index) => (
           <div className="relative group" key={index}>
             {/* <Link to={`/portofolio/${portofolio.id}`}> */}
