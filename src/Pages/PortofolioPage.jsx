@@ -55,7 +55,7 @@ const PortofolioPage = () => {
           </div>
           {/* </Link> */}
           <div className="">
-            <h4 className=" text-xl font-semibold mt-3">Landing Page</h4>
+            <h4 className=" text-xl font-semibold mt-3">KLF Project Manager</h4>
           </div>
         </div>
         <div className="">
@@ -68,7 +68,7 @@ const PortofolioPage = () => {
           </div>
           {/* </Link> */}
           <div className="">
-            <h4 className=" text-xl font-semibold mt-3">Landing Page</h4>
+            <h4 className=" text-xl font-semibold mt-3">Aplikasi HRIS - The Farmhill</h4>
           </div>
         </div>
         <div className="">
