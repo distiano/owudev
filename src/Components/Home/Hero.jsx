@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 
 const Hero = () => {
   return (
-    <div className="hero ">
+    <div className="hero">
       <div className="relative isolate px-6 lg:px-16 flex items-center  min-h-screen">
         <div className="grid sm:grid-cols-2 gap-10 items-center">
           <div className="sm:mt-12 rounded-lg order-2 sm:order-1">

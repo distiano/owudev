@@ -12,6 +12,7 @@ import video1 from '../assets/video/video1.mp4';
 import video2 from '../assets/video/video2.mp4';
 import video3 from '../assets/video/video3.mp4';
 import video4 from '../assets/video/video4.mp4';
+import Chat from '../Components/Chat/Chat';
 
 const PortofolioPage = () => {
   useEffect(() => {
@@ -90,7 +91,7 @@ const PortofolioPage = () => {
               {item.images.map((image, index) => (
                 <SwiperSlide key={index}>
                   <div className="relative">
-                    <img src={image} alt="" />
+                    <img src={image} className="h-64" alt="" />
                   </div>
                 </SwiperSlide>
               ))}
@@ -102,6 +103,7 @@ const PortofolioPage = () => {
           </div>
         ))}
       </div>
+      <Chat />
       <Footer />
     </>
   );

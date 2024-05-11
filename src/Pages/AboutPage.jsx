@@ -3,6 +3,8 @@ import About from '../Components/Home/About';
 import Navbar from '../Components/Navbar/Navbar';
 import gambar from '../assets/images/rake.png';
 import { FaInstagram, FaWhatsapp, FaGithub } from 'react-icons/fa';
+import { useEffect } from 'react';
+import Chat from '../Components/Chat/Chat';
 
 const AboutPage = () => {
   useEffect(() => {
@@ -93,6 +95,7 @@ const AboutPage = () => {
           </div>
         </div>
       </div>
+      <Chat />
       <Footer />
     </>
   );

@@ -1,3 +1,4 @@
+import Chat from '../Components/Chat/Chat';
 import Footer from '../Components/Footer/Footer';
 import About from '../Components/Home/About';
 import Client from '../Components/Home/Client';
@@ -12,7 +13,7 @@ const Homepage = () => {
     <>
       <Navbar />
       <Hero />
-      <div className="pt-32 flex items-center justify-center about">
+      <div className="pt-32 flex items-center justify-center about" data-aos="fade-up">
         <div className="w-1/4 border-t border-indigo-900 mr-4"></div>
         <h1 className="text-3xl font-bold text-center">About Us</h1>
         <div className="w-1/4 border-t border-indigo-900 ml-4"></div>
@@ -21,6 +22,7 @@ const Homepage = () => {
       <Services />
       <Portofolio />
       <Client />
+      <Chat />
       <Footer />
     </>
   );

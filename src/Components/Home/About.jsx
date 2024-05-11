@@ -1,9 +1,11 @@
 import imgAbout from '../../assets/images/ppp.png';
 import { FaComputer, FaUsers, FaLightbulb } from 'react-icons/fa6';
 
+import { useEffect } from 'react';
+
 const About = () => {
   return (
-    <div className="py-10 px-6 sm:px-16 ">
+    <div className="py-10 px-6 sm:px-16 " data-aos="fade-up" data-aos-duration="3000">
       <h2 className="text-center text-2xl sm:text-3xl font-bold mb-5 mt-5 sm:mt-0">Owudev: Partner Solusi Digital Anda</h2>
       <p className="text-center mt-3 text-gray-600 text-sm  lg:px-52">
         Kami adalah tim yang bersemangat dalam menciptakan solusi digital yang inovatif. Dengan gabungan kreativitas dan keahlian teknis, kami telah berhasil menghasilkan produk-produk yang memukau.{' '}

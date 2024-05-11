@@ -1,6 +1,8 @@
 import Navbar from '../Components/Navbar/Navbar';
 import Services from '../Components/Home/Services';
 import Footer from '../Components/Footer/Footer';
+import { useEffect } from 'react';
+import Chat from '../Components/Chat/Chat';
 
 const ServicesPage = () => {
   useEffect(() => {
@@ -14,6 +16,7 @@ const ServicesPage = () => {
         <h1 className=" text-5xl font-bold pt-10">Our Services</h1>
       </div>
       <Services />
+      <Chat />
       <Footer />
     </>
   );

@@ -83,6 +83,11 @@ import rentcar2 from '../images/porto/rentalmobil (5).png';
 import rentcar3 from '../images/porto/rentalmobil (1).png';
 import rentcar4 from '../images/porto/rentalmobil (2).png';
 import rentcar5 from '../images/porto/rentalmobil (3).png';
+import karimworks1 from '../images/porto/karimworks (2).png';
+import karimworks2 from '../images/porto/karimworks (3).png';
+import karimworks3 from '../images/porto/karimworks (4).png';
+import karimworks4 from '../images/porto/karimworks (5).png';
+import karimworks5 from '../images/porto/karimworks (1).png';
 
 const portofolio = [
   {
@@ -116,14 +121,15 @@ const portofolio = [
   },
   {
     id: 6,
-    images: [klf1, klf2, klf3, klf4, klf5, klf6, klf7, klf8, klf9, klf10, klf11, klf12, klf13, klf14],
-    judul: 'Aplikasi Kantor Karya Logam Furniture',
-  },
-  {
-    id: 7,
     images: [akulahvalorant1, akulahvalorant2],
     judul: 'Game',
   },
+  {
+    id: 7,
+    images: [klf1, klf2, klf3, klf4, klf5, klf6, klf7, klf8, klf9, klf10, klf11, klf12, klf13, klf14],
+    judul: 'Aplikasi Kantor Karya Logam Furniture',
+  },
+
   {
     id: 8,
     images: [sibanyumudal1, sibanyumudal2, sibanyumudal3],
@@ -133,6 +139,11 @@ const portofolio = [
     id: 9,
     images: [rentcar1, rentcar2, rentcar3, rentcar4, rentcar5],
     judul: 'Website Pemesanan Rental Mobil',
+  },
+  {
+    id: 10,
+    images: [karimworks1, karimworks2, karimworks3, karimworks4, karimworks5],
+    judul: 'Landing Page - Karimworks',
   },
 ];
 

@@ -51,15 +51,15 @@ export default function Example() {
         </div>
         <div className="hidden lg:flex lg:gap-x-12 ">
           {navigation.map((item) => (
-            <Link key={item.name} to={item.href} className={`text-sm font-bold ${isScrolled ? 'text-gray-900' : 'text-gray-600'} hover:text-blue-500 transition duration-300 ease-in-out`}>
+            <Link key={item.name} to={item.href} className={`text-sm font-bold ${isScrolled ? 'text-gray-900' : 'text-gray-900'} hover:text-blue-500 transition duration-300 ease-in-out`}>
               {item.name}
             </Link>
           ))}
         </div>
-        <div className="hidden lg:flex lg:flex-1 lg:justify-end ">
-          <a href="#" className="bg-blue-500 px-3 py-2 rounded-2xl w-48 text-sm font-semibold leading-6 text-white text-center hover:bg-blue-800 transition duration-300 ease-in-out">
-            Contact Us <span aria-hidden="true">&rarr;</span>
-          </a>
+        <div className="hidden opacity-0 lg:flex lg:flex-1 lg:justify-end ">
+          <Link to="#" className="bg-blue-500 px-3 py-2 rounded-2xl w-48 text-sm font-semibold leading-6 text-white text-center hover:bg-blue-800 transition duration-300 ease-in-out">
+            Order Now <span aria-hidden="true">&rarr;</span>
+          </Link>
         </div>
       </nav>
       <Dialog as="div" className="lg:hidden" open={mobileMenuOpen} onClose={setMobileMenuOpen}>
