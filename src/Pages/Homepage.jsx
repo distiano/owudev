@@ -10,6 +10,7 @@ import Navbar from '../Components/Navbar/Navbar';
 const Homepage = () => {
   return (
     <>
+      <Navbar />
       <Hero />
       <div className="pt-32 flex items-center justify-center about">
         {/* data-aos="fade-up" */}

@@ -2,13 +2,11 @@ import { FaInstagram, FaWhatsapp, FaGithub, FaRegPaperPlane } from 'react-icons/
 import hero from '../../assets/images/Young people working in a team.png';
 import { IoIosArrowDropright } from 'react-icons/io';
 import { Link } from 'react-router-dom';
-import Example from '../Navbar/Navbar';
 
 const Hero = () => {
   return (
     <div className="hero">
       <div className="relative isolate px-6 lg:px-16 flex items-center  min-h-screen">
-        <Example />
         <div className="grid sm:grid-cols-2 gap-10 items-center">
           <div className="sm:mt-12 rounded-lg order-2 sm:order-1">
             {/* <div className="hidden mt-8 sm:mb-8 sm:flex">
