@@ -14,7 +14,7 @@ const Footer = () => {
   return (
     <footer className="bg-gradient-to-b from-blue-500 to-blue-700 mt-12 ">
       <div className="mx-auto w-full max-w-screen-xl">
-        <div className="grid grid-cols-1 gap-4 sm:gap-8 text-sm md:text-base py-6 lg:py-8 md:grid-cols-3 px-10 sm:px-16 text-white">
+        <div className="grid grid-cols-1 gap-4 sm:gap-8 text-sm md:text-base py-6 lg:py-8 md:grid-cols-4 px-10 sm:px-16 text-white">
           <div>
             <h1 className="text-5xl font-bold">Owudev.</h1>
             {/* <div className="flex mt-4 sm:justify-start md:mt-5 space-x-5 rtl:space-x-reverse">
@@ -62,31 +62,31 @@ const Footer = () => {
               </a>
             </div> */}
           </div>
-          {/* <div>
+          <div>
             <h2 className="mb-3 sm:mb-6 text-base font-bold ">Company</h2>
             <ul className=" ">
               <li className="mb-4">
-                <a href="#" className=" hover:underline">
+                <Link to="/" className=" hover:underline">
+                  Home
+                </Link>
+              </li>
+              <li className="mb-4">
+                <Link to="/about" className="hover:underline">
                   About
-                </a>
+                </Link>
               </li>
               <li className="mb-4">
-                <a href="#" className="hover:underline">
-                  Careers
-                </a>
+                <Link to="/services" className="hover:underline">
+                  Service{' '}
+                </Link>
               </li>
               <li className="mb-4">
-                <a href="#" className="hover:underline">
-                  Brand Center
-                </a>
-              </li>
-              <li className="mb-4">
-                <a href="#" className="hover:underline">
-                  Blog
-                </a>
+                <Link to="/portofolio" className="hover:underline">
+                  Portofolio
+                </Link>
               </li>
             </ul>
-          </div> */}
+          </div>
           <div>
             <h2 className="mb-3 sm:mb-6 text-base font-bold ">Help center</h2>
             <ul className=" ">

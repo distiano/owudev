@@ -75,7 +75,7 @@ const AboutPage = () => {
             <div className=" relative h-80 flex flex-col justify-center items-center border border-slate-400 shadow-md rounded-lg group">
               <div className=" front-face text-center ">
                 <img className="w-36 h-36 rounded-full mb-4 object-cover" src={gambar3} alt="" />
-                <h4 className="font-bold">Wildan Hafiz</h4>
+                <h4 className="font-bold">Wildan Mirtaza</h4>
                 <p>Back-End Developer</p>
               </div>
               {/* <div className="absolute top-0 left-0 w-full h-full p-8 text-center back-face transform rotate-y-180">

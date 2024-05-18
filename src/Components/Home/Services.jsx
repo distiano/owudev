@@ -4,9 +4,10 @@ import { GrVirtualMachine } from 'react-icons/gr';
 import { FaArrowUpRightFromSquare } from 'react-icons/fa6';
 import { MdOutlineKeyboardArrowDown } from 'react-icons/md';
 import imgAbout from '../../assets/images/gambar3.png';
-import paket1 from '../../assets/images/compro.png';
+import paket1 from '../../assets/images/OIP (2).jpg';
 import paket2 from '../../assets/images/4799410.jpg';
 import paket3 from '../../assets/images/20945457.jpg';
+import paket4 from '../../assets/images/OIP.png';
 import { Link } from 'react-router-dom';
 import html from '../../assets/images/tools/html.png';
 import css from '../../assets/images/tools/css.png';
@@ -275,7 +276,7 @@ const Services = () => {
           <h4 className="text-xl font-bold mb-2">Virtual Showroom</h4>
           <small className="text-xs text-gray-600">3D Virtual Showroom</small>
           <div className="flex justify-center items-center h-56">
-            <img src={paket1} alt="" />
+            <img src={paket4} alt="" />
           </div>
           <p className="text-sm font-bold">Start From : </p>
           <div className="flex gap-2 justify-center items-center mt-3">
