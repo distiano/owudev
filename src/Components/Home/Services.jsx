@@ -190,7 +190,9 @@ const Services = () => {
           </div>
           <p className="text-blue-500 text-xs mt-3 font-semibold">Perpanjangan Mulai</p>
           <h3 className="text-blue-500 text-2xl font-bold mt-3">Rp 300 Ribu/Tahun</h3>
-          <button className="mt-4 bg-blue-500 text-white w-56 h-11 rounded-2xl font-bold hover:bg-blue-800 transition duration-300 ease-in-out">Pilih Paket</button>
+          <Link to="https://wa.me/6285156772751">
+            <button className="mt-4 bg-blue-500 text-white w-56 h-11 rounded-2xl font-bold hover:bg-blue-800 transition duration-300 ease-in-out">Pilih Paket</button>
+          </Link>
         </div>
         <div className="p-5 text-center rounded-2xl bg-white md:hover:scale-105 transition-transform duration-300" style={{ boxShadow: '1px 4px 4px 4px #00000040' }}>
           <h6 className="text-base text-gray-600">Paket Website</h6>
@@ -264,7 +266,9 @@ const Services = () => {
           </div>
           <p className="text-blue-500 text-xs mt-3 font-semibold">Perpanjangan Mulai</p>
           <h3 className="text-blue-500 text-2xl font-bold mt-3">Rp 300 Ribu/Tahun</h3>
-          <button className="mt-4 bg-blue-500 text-white w-56 h-11 rounded-2xl font-bold hover:bg-blue-800 transition duration-300 ease-in-out">Pilih Paket</button>
+          <Link to="https://wa.me/6285156772751">
+            <button className="mt-4 bg-blue-500 text-white w-56 h-11 rounded-2xl font-bold hover:bg-blue-800 transition duration-300 ease-in-out">Pilih Paket</button>
+          </Link>{' '}
         </div>
         <div className="p-5 text-center rounded-2xl bg-white md:hover:scale-105 transition-transform duration-300" style={{ boxShadow: '1px 4px 4px 4px #00000040' }}>
           <h6 className="text-base text-gray-600">Paket Website</h6>
@@ -338,7 +342,9 @@ const Services = () => {
           </div>
           <p className="text-blue-500 text-xs mt-3 font-semibold">Perpanjangan Mulai</p>
           <h3 className="text-blue-500 text-2xl font-bold mt-3">Rp 500 Ribu/Tahun</h3>
-          <button className="mt-4 bg-blue-500 text-white w-56 h-11 rounded-2xl font-bold hover:bg-blue-800 transition duration-300 ease-in-out">Pilih Paket</button>
+          <Link to="https://wa.me/6285156772751">
+            <button className="mt-4 bg-blue-500 text-white w-56 h-11 rounded-2xl font-bold hover:bg-blue-800 transition duration-300 ease-in-out">Pilih Paket</button>
+          </Link>{' '}
         </div>
         <div className="p-5 text-center rounded-2xl bg-white md:hover:scale-105 transition-transform duration-300" style={{ boxShadow: '1px 4px 4px 4px #00000040' }}>
           <h6 className="text-base text-gray-600">Paket Website</h6>
@@ -412,7 +418,9 @@ const Services = () => {
           </div>
           <p className="text-blue-500 text-xs mt-3 font-semibold">Perpanjangan Mulai</p>
           <h3 className="text-blue-500 text-2xl font-bold mt-3">Rp 1 Juta/Tahun</h3>
-          <button className="mt-4 bg-blue-500 text-white w-56 h-11 rounded-2xl font-bold hover:bg-blue-800 transition duration-300 ease-in-out">Pilih Paket</button>
+          <Link to="https://wa.me/6285156772751">
+            <button className="mt-4 bg-blue-500 text-white w-56 h-11 rounded-2xl font-bold hover:bg-blue-800 transition duration-300 ease-in-out">Pilih Paket</button>
+          </Link>{' '}
         </div>
       </div>
       {/* KelebiihN */}
