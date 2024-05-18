@@ -14,10 +14,10 @@ const Footer = () => {
   return (
     <footer className="bg-gradient-to-b from-blue-500 to-blue-700 mt-12 ">
       <div className="mx-auto w-full max-w-screen-xl">
-        <div className="grid grid-cols-1 gap-4 sm:gap-8 text-sm md:text-base py-6 lg:py-8 md:grid-cols-4 px-10 sm:px-16 text-white">
+        <div className="grid grid-cols-1 gap-4 sm:gap-8 text-sm md:text-base py-6 lg:py-8 md:grid-cols-3 px-10 sm:px-16 text-white">
           <div>
             <h1 className="text-5xl font-bold">Owudev.</h1>
-            <div className="flex mt-4 sm:justify-start md:mt-5 space-x-5 rtl:space-x-reverse">
+            {/* <div className="flex mt-4 sm:justify-start md:mt-5 space-x-5 rtl:space-x-reverse">
               <a href="#" className="text-white hover:text-gray-900 dark:hover:text-white">
                 <svg className="w-4 h-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 8 19">
                   <path fillRule="evenodd" d="M6.135 3H8V0H6.135a4.147 4.147 0 0 0-4.142 4.142V6H0v3h2v9.938h3V9h2.021l.592-3H5V3.591A.6.6 0 0 1 5.592 3h.543Z" clipRule="evenodd" />
@@ -60,9 +60,9 @@ const Footer = () => {
                 </svg>
                 <span className="sr-only">Dribbble account</span>
               </a>
-            </div>
+            </div> */}
           </div>
-          <div>
+          {/* <div>
             <h2 className="mb-3 sm:mb-6 text-base font-bold ">Company</h2>
             <ul className=" ">
               <li className="mb-4">
@@ -86,7 +86,7 @@ const Footer = () => {
                 </a>
               </li>
             </ul>
-          </div>
+          </div> */}
           <div>
             <h2 className="mb-3 sm:mb-6 text-base font-bold ">Help center</h2>
             <ul className=" ">

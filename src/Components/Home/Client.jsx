@@ -6,7 +6,9 @@ import imgClient5 from '../../assets/images/sman12tangsel-removebg-preview.png';
 import imgClient6 from '../../assets/images/logo_kabupaten_pemalang-removebg-preview.png';
 import imgClient7 from '../../assets/images/logo-djpb-removebg-preview.png';
 import imgClient8 from '../../assets/images/WhatsApp_Image_2024-05-07_at_03.27.06-removebg-preview.png';
-import imgClient9 from '../../assets/images/logoklf.png';
+import imgClient9 from '../../assets/images/klflogo (3).png';
+import imgClient10 from '../../assets/images/Logo Andana White.png';
+import imgClient11 from '../../assets/images/BadanKarantinaIndonesia-logo.png';
 3;
 const Client = () => {
   return (
@@ -32,6 +34,8 @@ const Client = () => {
         <img src={imgClient7} className="h-10 md:h-16 " alt="" />
         <img src={imgClient8} className="h-10 md:h-16 " alt="" />
         <img src={imgClient9} className="h-10 md:h-20 " alt="" />
+        <img src={imgClient10} className="h-10 md:h-16 " alt="" />
+        <img src={imgClient11} className="h-10 md:h-16 " alt="" />
       </div>
     </div>
   );

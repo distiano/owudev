@@ -2,7 +2,7 @@
   font-family: 'DM Sans', sans-serif;
 }
 
-.back-face {
+/* .back-face {
   display: none;
   position: absolute;
   top: 0;
@@ -11,14 +11,14 @@
   height: 100%;
   background-color: #ffffff;
   transform: rotateY(180deg);
-  transition: transform 0.5s ease; /* Tambahkan transisi untuk efek yang halus */
+  transition: transform 0.5s ease; 
 }
 
 .group:hover .back-face {
   display: block;
-  transform: rotateY(0deg); /* Memutar kembali kartu saat dihover */
+  transform: rotateY(0deg);
 }
 
 .group:hover .front-face {
   display: none;
-}
+} */

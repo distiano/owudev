@@ -31,63 +31,63 @@ const Services = () => {
       </div>{' '}
       <p className="text-center mt-3 text-sm sm:text-md lg:px-52 text-gray-600">Kami menyediakan berbagai jenis produk </p>
       <div className="mt-10 grid lg:grid-cols-2 gap-6">
-        <div className="p-6 text-sm rounded-lg bg-blue-200 flex gap-5 shadow-lg justify-between items-center ">
-          <div className="">
+        <div className="p-6 text-sm rounded-lg bg-blue-200  gap-5 shadow-lg justify-between items-center ">
+          <div className="flex gap-3 items-center">
             <CgWebsite className="size-8" />
-            <h3 className="font-bold mt-3">Website Application</h3>
+            <h3 className="font-bold ">Website Application</h3>
+            {/* <div className="hidden lg:block">
+              <FaArrowUpRightFromSquare className="size-6 text-slate-400" />
+            </div> */}
           </div>
-          <div>
+          <div className="mt-3">
             <p className="text-gray-600 md:text-justify">
               Layanan ini mencakup pengembangan dan pembuatan situs web yang responsif dan menarik. Kami menggunakan teknologi terbaru untuk memastikan situs web Anda memiliki tampilan yang kreatif, fungsional, dan sesuai dengan kebutuhan
               bisnis Anda.
             </p>
           </div>
-          <div className="hidden lg:block">
-            <FaArrowUpRightFromSquare className="size-6 text-slate-400" />
-          </div>
         </div>
-        <div className="p-6 text-sm rounded-lg bg-blue-200 flex gap-5 shadow-lg justify-between items-center ">
-          <div className="">
+        <div className="p-6 text-sm rounded-lg bg-blue-200  gap-5 shadow-lg justify-between items-center ">
+          <div className="flex gap-3 items-center">
             <FaMobileAlt className="size-8" />
-            <h3 className="font-bold mt-3">Mobile Application</h3>
+            <h3 className="font-bold ">Mobile Application</h3>
+            {/* <div className="hidden lg:block">
+              <FaArrowUpRightFromSquare className="size-6 text-slate-400" />
+            </div> */}
           </div>
-          <div>
+          <div className="mt-3">
             <p className="text-gray-600 md:text-justify">
               Layanan kami mencakup pengembangan aplikasi mobile inovatif untuk platform iOS dan Android, dengan fokus pada pengalaman pengguna yang unggul dan kinerja optimal, kami membantu Anda menghadirkan aplikasi yang memenuhi
               kebutuhan Anda dan mencapai tujuan bisnis Anda.
             </p>
           </div>
-          <div className="hidden lg:block">
-            <FaArrowUpRightFromSquare className="size-6 text-slate-400" />
-          </div>
         </div>
-        <div className="p-6 text-sm rounded-lg bg-blue-200 flex gap-5 shadow-lg justify-between items-center ">
-          <div className="">
+        <div className="p-6 text-sm rounded-lg bg-blue-200  gap-5 shadow-lg justify-between items-center ">
+          <div className="flex gap-3 items-center">
             <GrVirtualMachine className="size-8" />
-            <h3 className="font-bold mt-3">Virtual Showroom</h3>
+            <h3 className="font-bold ">Virtual Showroom</h3>
+            {/* <div className="hidden lg:block">
+              <FaArrowUpRightFromSquare className="size-6 text-slate-400" />
+            </div> */}
           </div>
-          <div>
+          <div className="mt-3">
             <p className="text-gray-600 md:text-justify">
               Solusi pembuatan virtual showroom kami memungkinkan Anda memamerkan produk dalam lingkungan 3D yang realistis, memberikan pengalaman interaktif kepada pelanggan tanpa perlu datang ke lokasi fisik, dengan teknologi canggih
               untuk menciptakan presentasi produk yang memukau.
             </p>
           </div>
-          <div className="hidden lg:block">
-            <FaArrowUpRightFromSquare className="size-6 text-slate-400" />
-          </div>
         </div>
-        <div className="p-6 text-sm rounded-lg bg-blue-200 flex gap-5 shadow-lg justify-between items-center ">
-          <div className="">
+        <div className="p-6 text-sm rounded-lg bg-blue-200  gap-5 shadow-lg justify-between items-center ">
+          <div className="flex gap-3 items-center">
             <FaGamepad className="size-8" />
-            <h3 className="font-bold mt-3">Mobile Game</h3>
+            <h3 className="font-bold ">Mobile Game</h3>
+            {/* <div className="hidden lg:block">
+              <FaArrowUpRightFromSquare className="size-6 text-slate-400" />
+            </div> */}
           </div>
-          <div>
+          <div className="mt-3">
             <p className="text-gray-600 md:text-justify">
               Kami mengembangkan game menarik untuk berbagai platform, dari PC hingga perangkat mobile, dengan desain kreatif, gameplay adiktif, dan grafis memukau, menciptakan pengalaman game tak terlupakan.
             </p>
-          </div>
-          <div className="hidden lg:block">
-            <FaArrowUpRightFromSquare className="size-6 text-slate-400" />
           </div>
         </div>
       </div>
