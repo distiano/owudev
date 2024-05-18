@@ -3,8 +3,8 @@ import { FaWhatsapp } from 'react-icons/fa';
 
 const Chat = () => {
   return (
-    <div className="fixed bottom-6 right-6">
-      <Link to="#">
+    <div className="fixed bottom-6 right-6 z-50">
+      <Link to="https://wa.me/6285156772751">
         <button className=" flex items-center justify-center gap-3 bg-[#25d366] px-5 py-3 rounded-2xl  font-semibold  text-white hover:bg-[#128c7e] transition duration-300 ease-in-out">
           Contact
           <span>

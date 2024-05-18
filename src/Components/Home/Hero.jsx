@@ -25,33 +25,33 @@ const Hero = () => {
                 sesusai dengan kebutuhan Anda.
               </p>
               <div className="mt-10 flex items-center justify-center sm:justify-normal gap-x-6">
-                <a
-                  href="#"
+                <Link
+                  href="#about"
                   className="text-center flex items-center justify-center gap-4 bg-blue-500 py-3 rounded-2xl text-sm font-bold text-white w-36 sm:w-56 hover:bg-blue-800 transition duration-300 ease-in-out"
                   style={{ boxShadow: ' 4px 4px 4px 0px #00000040' }}
                 >
                   <FaRegPaperPlane />
                   Get started
-                </a>
-                <a
-                  href="#"
+                </Link>
+                <Link
+                  to="/portofolio"
                   className="flex items-center justify-center gap-4 text-sm text-center bg-white py-2.5 w-40 sm:w-48 rounded-2xl font-semibold leading-6 hover:bg-slate-300 transition duration-300 ease-in-out"
                   style={{ boxShadow: ' 4px 4px 4px 0px #00000040' }}
                 >
                   <IoIosArrowDropright className="size-5" />
                   Lihat Portofolio
-                </a>
+                </Link>
               </div>
             </div>
             <div className="justify-center items-center sm:justify-start flex gap-3 mt-10">
               <h6 className="text-sm font-semibold ">Ikuti Kami:</h6>
-              <Link to="">
+              <Link to="https://wa.me/6285156772751">
                 <FaWhatsapp className="size-5" style={{ color: '#25D366' }} />
               </Link>
               <Link to="https://www.instagram.com/owudev/">
                 <FaInstagram className="size-5" style={{ color: '#c32aa3' }} />
               </Link>
-              <Link>
+              <Link to="https://github.com/rakeWangsa">
                 <FaGithub className="size-5" style={{ color: 'black' }} />
               </Link>
             </div>

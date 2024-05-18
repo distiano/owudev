@@ -5,6 +5,8 @@ import { FaArrowUpRightFromSquare } from 'react-icons/fa6';
 import { MdOutlineKeyboardArrowDown } from 'react-icons/md';
 import imgAbout from '../../assets/images/gambar3.png';
 import paket1 from '../../assets/images/compro.png';
+import paket2 from '../../assets/images/4799410.jpg';
+import paket3 from '../../assets/images/20945457.jpg';
 import { Link } from 'react-router-dom';
 import html from '../../assets/images/tools/html.png';
 import css from '../../assets/images/tools/css.png';
@@ -27,9 +29,7 @@ const Services = () => {
         <h1 className="text-3xl font-bold text-center">Produk Kami</h1>
         <div className="w-1/5 sm:w-1/4 border-t border-indigo-900 ml-4"></div>
       </div>{' '}
-      <p className="text-center mt-3 text-sm sm:text-md lg:px-52 text-gray-600">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum modi voluptate dolor tenetur fugit sed. Dignissimos expedita sed inventore delectus neque, ratione molestiae, omnis magnam optio deleniti est voluptates perferendis.
-      </p>
+      <p className="text-center mt-3 text-sm sm:text-md lg:px-52 text-gray-600">Kami menyediakan berbagai jenis produk </p>
       <div className="mt-10 grid lg:grid-cols-2 gap-6">
         <div className="p-6 text-sm rounded-lg bg-blue-200 flex gap-5 shadow-lg justify-between items-center ">
           <div className="">
@@ -122,7 +122,7 @@ const Services = () => {
           <h6 className="text-base text-gray-600">Paket Website</h6>
           <h4 className="text-xl font-bold mb-2">Company Profile</h4>
           <small className="text-xs text-gray-600">Profil bisnis perusahaan, UMKM</small>
-          <div className="flex justify-center">
+          <div className="flex justify-center items-center  h-56">
             <img src={paket1} alt="" />
           </div>
           <p className="text-sm font-bold">Start From : </p>
@@ -196,8 +196,8 @@ const Services = () => {
           <h6 className="text-base text-gray-600">Paket Website</h6>
           <h4 className="text-xl font-bold mb-2">E-Commerce</h4>
           <small className="text-xs text-gray-600">Toko online, Katalog</small>
-          <div className="flex justify-center">
-            <img src={paket1} alt="" />
+          <div className="flex justify-center items-center h-56">
+            <img src={paket2} alt="" />
           </div>
           <p className="text-sm font-bold">Start From : </p>
           <div className="flex gap-2 justify-center items-center mt-3">
@@ -270,7 +270,7 @@ const Services = () => {
           <h6 className="text-base text-gray-600">Paket Website</h6>
           <h4 className="text-xl font-bold mb-2">Virtual Showroom</h4>
           <small className="text-xs text-gray-600">3D Virtual Showroom</small>
-          <div className="flex justify-center">
+          <div className="flex justify-center items-center h-56">
             <img src={paket1} alt="" />
           </div>
           <p className="text-sm font-bold">Start From : </p>
@@ -344,8 +344,8 @@ const Services = () => {
           <h6 className="text-base text-gray-600">Paket Website</h6>
           <h4 className="text-xl font-bold mb-2">Custom</h4>
           <small className="text-xs text-gray-600">Website Custom</small>
-          <div className="flex justify-center">
-            <img src={paket1} alt="" />
+          <div className="flex justify-center items-center h-56">
+            <img src={paket3} alt="" />
           </div>
           <p className="text-sm font-bold">Start From : </p>
           <div className="flex gap-2 justify-center items-center mt-3">

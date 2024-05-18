@@ -91,7 +91,7 @@ const PortofolioPage = () => {
               {item.images.map((image, index) => (
                 <SwiperSlide key={index}>
                   <div className="relative">
-                    <img src={image} className="h-64 w-full" alt="" />
+                    <img src={image} className="lg:h-64 w-full" alt="" />
                   </div>
                 </SwiperSlide>
               ))}

@@ -8,6 +8,7 @@ import dana from '../../assets/images/dana.png';
 import ovo from '../../assets/images/ovo.png';
 import shopeepay from '../../assets/images/shopeepay.png';
 import gopay from '../../assets/images/gopay.png';
+import { Link } from 'react-router-dom';
 
 const Footer = () => {
   return (
@@ -90,24 +91,19 @@ const Footer = () => {
             <h2 className="mb-3 sm:mb-6 text-base font-bold ">Help center</h2>
             <ul className=" ">
               <li className="mb-4">
-                <a href="#" className="hover:underline">
+                <Link to="https://www.instagram.com/owudev/" className="hover:underline">
                   Instagram{' '}
-                </a>
+                </Link>
               </li>
               <li className="mb-4">
-                <a href="#" className="hover:underline">
-                  Twitter
-                </a>
+                <Link to="https://github.com/rakeWangsa" href="#" className="hover:underline">
+                  Github
+                </Link>
               </li>
               <li className="mb-4">
-                <a href="#" className="hover:underline">
-                  Facebook
-                </a>
-              </li>
-              <li className="mb-4">
-                <a href="#" className="hover:underline">
-                  Contact Us
-                </a>
+                <Link to="https://wa.me/6285156772751" className="hover:underline">
+                  Whatsapp
+                </Link>
               </li>
             </ul>
           </div>

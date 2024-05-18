@@ -2,6 +2,8 @@ import Footer from '../Components/Footer/Footer';
 import About from '../Components/Home/About';
 import Navbar from '../Components/Navbar/Navbar';
 import gambar from '../assets/images/rake.png';
+import gambar2 from '../assets/images/ito.jpeg';
+import gambar3 from '../assets/images/idan.png';
 import { FaInstagram, FaWhatsapp, FaGithub } from 'react-icons/fa';
 import { useEffect } from 'react';
 import Chat from '../Components/Chat/Chat';
@@ -29,7 +31,7 @@ const AboutPage = () => {
             <div className="relative h-80 flex flex-col justify-center items-center border border-slate-400 shadow-lg rounded-lg group">
               <div className=" front-face text-center">
                 <img className="w-36 h-36 rounded-full mb-4" src={gambar} alt="" />
-                <h4 className="font-bold">Rakev Tionardi</h4>
+                <h4 className="font-bold">Rake Wangsa</h4>
                 <p>Back-End Developer</p>
               </div>
               <div className="absolute top-0 left-0 w-full h-full p-8 text-center back-face transform rotate-y-180 ">
@@ -50,9 +52,9 @@ const AboutPage = () => {
             </div>
             <div className="relative h-80 flex flex-col justify-center items-center border border-slate-400 shadow-md rounded-lg group">
               <div className=" front-face text-center">
-                <img className="w-36 h-36 rounded-full mb-4" src={gambar} alt="" />
-                <h4 className="font-bold">Rakev Tionardi</h4>
-                <p>Back-End Developer</p>
+                <img className="w-36 h-36 rounded-full mb-4 object-cover" src={gambar2} alt="" />
+                <h4 className="font-bold">Ito Distiano</h4>
+                <p>Front-End Developer</p>
               </div>
               <div className="absolute top-0 left-0 w-full h-full p-8 text-center back-face transform rotate-y-180">
                 <h2 className="font-bold mb-5">About Me</h2>
@@ -72,9 +74,9 @@ const AboutPage = () => {
             </div>
             <div className=" relative h-80 flex flex-col justify-center items-center border border-slate-400 shadow-md rounded-lg group">
               <div className=" front-face text-center ">
-                <img className="w-36 h-36 rounded-full mb-4" src={gambar} alt="" />
-                <h4 className="font-bold">Rakev Tionardi</h4>
-                <p>Back-End Developer</p>
+                <img className="w-36 h-36 rounded-full mb-4 object-cover" src={gambar3} alt="" />
+                <h4 className="font-bold">Wildan Hafiz</h4>
+                <p>Marketing</p>
               </div>
               <div className="absolute top-0 left-0 w-full h-full p-8 text-center back-face transform rotate-y-180">
                 <h2 className="font-bold mb-5">About Me</h2>
