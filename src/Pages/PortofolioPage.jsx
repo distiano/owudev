@@ -8,7 +8,7 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import { Autoplay } from 'swiper/modules';
 import { useEffect } from 'react';
-import video1 from '../assets/video/video1.mp4';
+import video1 from '../assets/video/video5.mp4';
 import video2 from '../assets/video/video2.mp4';
 import video3 from '../assets/video/video3.mp4';
 import video4 from '../assets/video/video4.mp4';
@@ -34,7 +34,7 @@ const PortofolioPage = () => {
       <div className="grid grid-cols-1 gap-12 md:grid-cols-2 lg:gap-16 py-10 px-6 lg:px-24">
         <div className="">
           {/* <Link to={`/portofolio/${portofolio.id}`}> */}
-          <div className="relative group">
+          <div className="relative group shadow-md">
             <video autoPlay muted loop className="rounded-md">
               <source src={video1} type="video/mp4" />
               Your browser does not support the video tag.
@@ -42,12 +42,12 @@ const PortofolioPage = () => {
           </div>
           {/* </Link> */}
           <div className="">
-            <h4 className=" text-xl font-semibold mt-3">Landing Page</h4>
+            <h4 className=" text-xl font-semibold mt-3">Landing Page - Andana Picture</h4>
           </div>
         </div>
         <div className="">
           {/* <Link to={`/portofolio/${portofolio.id}`}> */}
-          <div className="relative group">
+          <div className="relative group shadow-md">
             <video autoPlay muted loop className="rounded-md">
               <source src={video2} type="video/mp4" />
               Your browser does not support the video tag.
@@ -60,7 +60,7 @@ const PortofolioPage = () => {
         </div>
         <div className="">
           {/* <Link to={`/portofolio/${portofolio.id}`}> */}
-          <div className="relative group">
+          <div className="relative group shadow-md">
             <video autoPlay muted loop className="rounded-md">
               <source src={video3} type="video/mp4" />
               Your browser does not support the video tag.
@@ -73,7 +73,7 @@ const PortofolioPage = () => {
         </div>
         <div className="">
           {/* <Link to={`/portofolio/${portofolio.id}`}> */}
-          <div className="relative group">
+          <div className="relative group shadow-md">
             <video autoPlay muted loop className="rounded-md">
               <source src={video4} type="video/mp4" />
               Your browser does not support the video tag.
@@ -85,12 +85,12 @@ const PortofolioPage = () => {
           </div>
         </div>
         {portofolio.map((item, index) => (
-          <div className="relative group" key={index}>
+          <div className="relative group  " key={index}>
             {/* <Link to={`/portofolio/${portofolio.id}`}> */}
-            <Swiper spaceBetween={0} loop={true} slidesPerView={1} autoplay={{ delay: 2000 }} modules={[Autoplay]}>
+            <Swiper spaceBetween={0} loop={true} slidesPerView={1} autoplay={{ delay: 2000 }} modules={[Autoplay]} className="shadow-md">
               {item.images.map((image, index) => (
                 <SwiperSlide key={index}>
-                  <div className="relative">
+                  <div className="relative ">
                     <img src={image} className="lg:h-64 w-full" alt="" />
                   </div>
                 </SwiperSlide>

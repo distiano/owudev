@@ -88,6 +88,14 @@ import karimworks2 from '../images/porto/karimworks (3).png';
 import karimworks3 from '../images/porto/karimworks (4).png';
 import karimworks4 from '../images/porto/karimworks (5).png';
 import karimworks5 from '../images/porto/karimworks (1).png';
+import sistempengawalanvirtual1 from '../images/porto/sistempengawalanvirtual (1).jpeg';
+import sistempengawalanvirtual2 from '../images/porto/sistempengawalanvirtual (2).jpeg';
+import sistempengawalanvirtual3 from '../images/porto/sistempengawalanvirtual (3).jpeg';
+import sistempengawalanvirtual4 from '../images/porto/sistempengawalanvirtual (4).jpeg';
+import sistempengawalanvirtual5 from '../images/porto/sistempengawalanvirtual (5).jpeg';
+import sistempengawalanvirtual6 from '../images/porto/sistempengawalanvirtual (6).jpeg';
+import sistempengawalanvirtual7 from '../images/porto/sistempengawalanvirtual (7).jpeg';
+import sistempengawalanvirtual8 from '../images/porto/sistempengawalanvirtual (8).jpeg';
 
 const portofolio = [
   {
@@ -144,6 +152,11 @@ const portofolio = [
     id: 10,
     images: [karimworks1, karimworks2, karimworks3, karimworks4, karimworks5],
     judul: 'Landing Page - Karimworks',
+  },
+  {
+    id: 11,
+    images: [sistempengawalanvirtual8, sistempengawalanvirtual2, sistempengawalanvirtual3, sistempengawalanvirtual4, sistempengawalanvirtual5, sistempengawalanvirtual7, sistempengawalanvirtual7, sistempengawalanvirtual1],
+    judul: 'Sistem Pengawalan Virtual - Badan Karantina Indonesia',
   },
 ];
 

@@ -32,9 +32,9 @@ const Client = () => {
         <img src={imgClient5} className="h-10 md:h-16 " alt="" />
         <img src={imgClient7} className="h-10 md:h-16 " alt="" />
         <img src={imgClient6} className="h-10 md:h-16 " alt="" />
+        <img src={imgClient9} className="h-10 md:h-20 w-44" alt="" />
         <img src={imgClient8} className="h-10 md:h-20 " alt="" />
-        <img src={imgClient9} className="h-10 md:h-20 " alt="" />
-        <img src={imgClient10} className="h-16 md:h-24 " alt="" />
+        <img src={imgClient10} className="h-16 md:h-32 " alt="" />
         <img src={imgClient11} className="h-10 md:h-16 " alt="" />
       </div>
     </div>

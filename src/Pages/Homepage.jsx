@@ -6,8 +6,12 @@ import Hero from '../Components/Home/Hero';
 import Portofolio from '../Components/Home/Portofolio';
 import Services from '../Components/Home/Services';
 import Navbar from '../Components/Navbar/Navbar';
+import { useEffect } from 'react';
 
 const Homepage = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <>
       <Navbar />

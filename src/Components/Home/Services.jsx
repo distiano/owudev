@@ -118,13 +118,13 @@ const Services = () => {
           Kami menyediakan berbagai jenis kategori website yang bisa Anda pilih sesuai kebutuhan bisnis Anda. Masing-masing kategori website memiliki perbedaan dari fasilitas, harga, desain, fitur, dan fungsi.
         </p>
       </div>
-      <div className="grid sm:grid-cols-2 xl:grid-cols-4 gap-4 md:gap-12 xl:gap-4">
-        <div className="p-5 text-center rounded-2xl bg-white md:hover:scale-105 transition-transform duration-300" style={{ boxShadow: '1px 4px 4px 4px #00000040' }}>
+      <div className="grid sm:grid-cols-2 xl:grid-cols-4 gap-8 md:gap-12 xl:gap-4">
+        <div className="p-5 text-center rounded-2xl bg-white lg:hover:scale-105 transition-transform duration-300" style={{ boxShadow: '1px 4px 4px 4px #00000040' }}>
           <h6 className="text-base text-gray-600">Paket Website</h6>
           <h4 className="text-xl font-bold mb-2">Company Profile</h4>
           <small className="text-xs text-gray-600">Profil bisnis perusahaan, UMKM</small>
-          <div className="flex justify-center items-center  h-56">
-            <img src={paket1} alt="" />
+          <div className="flex justify-center items-center h-44  lg:h-56">
+            <img src={paket1} alt="" className="size-full object-contain" />
           </div>
           <p className="text-sm font-bold">Start From : </p>
           <div className="flex gap-2 justify-center items-center mt-3">
@@ -195,12 +195,12 @@ const Services = () => {
             <button className="mt-4 bg-blue-500 text-white w-56 h-11 rounded-2xl font-bold hover:bg-blue-800 transition duration-300 ease-in-out">Pilih Paket</button>
           </Link>
         </div>
-        <div className="p-5 text-center rounded-2xl bg-white md:hover:scale-105 transition-transform duration-300" style={{ boxShadow: '1px 4px 4px 4px #00000040' }}>
+        <div className="p-5 text-center rounded-2xl bg-white lg:hover:scale-105 transition-transform duration-300" style={{ boxShadow: '1px 4px 4px 4px #00000040' }}>
           <h6 className="text-base text-gray-600">Paket Website</h6>
           <h4 className="text-xl font-bold mb-2">E-Commerce</h4>
           <small className="text-xs text-gray-600">Toko online, Katalog</small>
-          <div className="flex justify-center items-center h-56">
-            <img src={paket2} alt="" />
+          <div className="flex justify-center items-center h-44 lg:h-56">
+            <img src={paket2} alt="" className="size-full object-contain" />
           </div>
           <p className="text-sm font-bold">Start From : </p>
           <div className="flex gap-2 justify-center items-center mt-3">
@@ -271,12 +271,12 @@ const Services = () => {
             <button className="mt-4 bg-blue-500 text-white w-56 h-11 rounded-2xl font-bold hover:bg-blue-800 transition duration-300 ease-in-out">Pilih Paket</button>
           </Link>{' '}
         </div>
-        <div className="p-5 text-center rounded-2xl bg-white md:hover:scale-105 transition-transform duration-300" style={{ boxShadow: '1px 4px 4px 4px #00000040' }}>
+        <div className="p-5 text-center rounded-2xl bg-white lg:hover:scale-105 transition-transform duration-300" style={{ boxShadow: '1px 4px 4px 4px #00000040' }}>
           <h6 className="text-base text-gray-600">Paket Website</h6>
           <h4 className="text-xl font-bold mb-2">Virtual Showroom</h4>
           <small className="text-xs text-gray-600">3D Virtual Showroom</small>
-          <div className="flex justify-center items-center h-56">
-            <img src={paket4} alt="" />
+          <div className="flex justify-center items-center h-44 lg:h-56">
+            <img src={paket4} alt="" className="size-full object-contain" />
           </div>
           <p className="text-sm font-bold">Start From : </p>
           <div className="flex gap-2 justify-center items-center mt-3">
@@ -347,12 +347,12 @@ const Services = () => {
             <button className="mt-4 bg-blue-500 text-white w-56 h-11 rounded-2xl font-bold hover:bg-blue-800 transition duration-300 ease-in-out">Pilih Paket</button>
           </Link>{' '}
         </div>
-        <div className="p-5 text-center rounded-2xl bg-white md:hover:scale-105 transition-transform duration-300" style={{ boxShadow: '1px 4px 4px 4px #00000040' }}>
+        <div className="p-5 text-center rounded-2xl bg-white lg:hover:scale-105 transition-transform duration-300" style={{ boxShadow: '1px 4px 4px 4px #00000040' }}>
           <h6 className="text-base text-gray-600">Paket Website</h6>
           <h4 className="text-xl font-bold mb-2">Custom</h4>
           <small className="text-xs text-gray-600">Website Custom</small>
-          <div className="flex justify-center items-center h-56">
-            <img src={paket3} alt="" />
+          <div className="flex justify-center items-center h-44 lg:h-56">
+            <img src={paket3} alt="" className="size-full object-contain" />
           </div>
           <p className="text-sm font-bold">Start From : </p>
           <div className="flex gap-2 justify-center items-center mt-3">

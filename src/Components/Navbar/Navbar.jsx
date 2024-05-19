@@ -1,9 +1,10 @@
 import { useState, useEffect } from 'react';
 import { Dialog } from '@headlessui/react';
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline';
-import { Link } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
 import logo from '../../assets/images/logo owudev2.png';
 import logo2 from '../../assets/images/logoremovebg3.png';
+import './navbar.css';
 
 const navigation = [
   { name: 'Home', href: '/' },
@@ -15,6 +16,7 @@ const navigation = [
 export default function Example() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [isScrolled, setIsScrolled] = useState(false);
+  const location = useLocation();
 
   useEffect(() => {
     const handleScroll = () => {
@@ -32,15 +34,16 @@ export default function Example() {
     };
   }, []);
 
+  const isActive = (href) => location.pathname === href;
+
   return (
     <header className={`fixed top-0 left-0 right-0 z-50 ${isScrolled ? 'bg-white' : ''}`} style={{ transition: 'background-color 0.3s ease' }}>
       <nav className="flex items-center justify-between p-3 lg:px-8 shadow" aria-label="Global">
         <div className="flex lg:flex-1">
           <Link to="/" className="">
             <span className="sr-only">Your Company</span>
-            <div className="h-10 font-bold text-blue-500">
-              <img src={logo} className="h-8 md:h-10 size-full hidden lg:block" alt="" />
-              <img src={logo2} className="h-10 block lg:hidden" alt="" />
+            <div className=" font-bold text-blue-500">
+              <img src={logo} className="h-7 md:h-10 size-full " alt="" />
             </div>{' '}
           </Link>
         </div>
@@ -52,7 +55,7 @@ export default function Example() {
         </div>
         <div className="hidden lg:flex lg:gap-x-12 ">
           {navigation.map((item) => (
-            <Link key={item.name} to={item.href} className={`text-sm font-bold ${isScrolled ? 'text-gray-900' : 'text-gray-900'} hover:text-blue-500 transition duration-300 ease-in-out`}>
+            <Link key={item.name} to={item.href} className={`text-sm font-bold underline-animation ${isActive(item.href) ? 'active text-blue-700' : 'text-gray-900'} hover:text-blue-700 transition duration-300 ease-in-out`}>
               {item.name}
             </Link>
           ))}
@@ -80,7 +83,11 @@ export default function Example() {
             <div className="-my-6 divide-y divide-gray-500/10">
               <div className="space-y-2 py-6 ">
                 {navigation.map((item) => (
-                  <Link key={item.name} to={item.href} className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">
+                  <Link
+                    key={item.name}
+                    to={item.href}
+                    className={`-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7  ${isActive(item.href) ? 'text-blue-500' : 'text-gray-900'} hover:text-blue-500 transition duration-300 ease-in-out`}
+                  >
                     {item.name}
                   </Link>
                 ))}
