@@ -96,6 +96,10 @@ import sistempengawalanvirtual5 from '../images/porto/sistempengawalanvirtual (5
 import sistempengawalanvirtual6 from '../images/porto/sistempengawalanvirtual (6).jpeg';
 import sistempengawalanvirtual7 from '../images/porto/sistempengawalanvirtual (7).jpeg';
 import sistempengawalanvirtual8 from '../images/porto/sistempengawalanvirtual (8).jpeg';
+import japara1 from '../images/porto/japara (1).jpeg';
+import japara2 from '../images/porto/japara (2).jpeg';
+import japara3 from '../images/porto/japara (3).jpeg';
+import japara4 from '../images/porto/japara (4).jpeg';
 
 const portofolio = [
   {
@@ -112,10 +116,10 @@ const portofolio = [
   },
   {
     id: 3,
-    images: [sistemprofiling1, sistemprofiling2, sistemprofiling3, sistemprofiling4, sistemprofiling5, sistemprofiling6, sistemprofiling7, sistemprofiling8, sistemprofiling9],
-    judul: 'Sistem Profiling - BBKIPM Jakarta I',
-    video: video3,
+    images: [japara3, japara4, japara1, japara2],
+    judul: 'Japara Marketplace',
   },
+
   {
     id: 4,
     images: [absensi1, absensi2, absensi3, absensi4, absensi5, absensi6, absensi7, absensi8, absensi9, absensi10, absensi11, absensi12, absensi13, absensi14, absensi15, absensi16, absensi17, absensi18, absensi19, absensi20, absensi21],
@@ -130,7 +134,7 @@ const portofolio = [
   {
     id: 6,
     images: [akulahvalorant1, akulahvalorant2],
-    judul: 'Game',
+    judul: 'Game - Akulah Valorant',
   },
   {
     id: 7,
@@ -157,6 +161,12 @@ const portofolio = [
     id: 11,
     images: [sistempengawalanvirtual8, sistempengawalanvirtual2, sistempengawalanvirtual3, sistempengawalanvirtual4, sistempengawalanvirtual5, sistempengawalanvirtual7, sistempengawalanvirtual7, sistempengawalanvirtual1],
     judul: 'Sistem Pengawalan Virtual - Badan Karantina Indonesia',
+  },
+  {
+    id: 12,
+    images: [sistemprofiling1, sistemprofiling2, sistemprofiling3, sistemprofiling4, sistemprofiling5, sistemprofiling6, sistemprofiling7, sistemprofiling8, sistemprofiling9],
+    judul: 'Sistem Profiling - BBKIPM Jakarta I',
+    video: video3,
   },
 ];
 
