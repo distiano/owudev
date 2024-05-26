@@ -45,7 +45,7 @@ const Hero = () => {
             </div>
             <div className="justify-center items-center sm:justify-start flex gap-3 mt-10">
               <h6 className="text-sm font-semibold ">Ikuti Kami:</h6>
-              <Link to="https://wa.me/6285156772751">
+              <Link to="https://wa.me/6285236704913">
                 <FaWhatsapp className="size-5" style={{ color: '#25D366' }} />
               </Link>
               <Link to="https://www.instagram.com/owudev/">

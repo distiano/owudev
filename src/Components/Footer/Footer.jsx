@@ -101,7 +101,7 @@ const Footer = () => {
                 </Link>
               </li>
               <li className="mb-4">
-                <Link to="https://wa.me/6285156772751" className="hover:underline">
+                <Link to="https://wa.me/6285236704913" className="hover:underline">
                   Whatsapp
                 </Link>
               </li>
