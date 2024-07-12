@@ -7,9 +7,11 @@ import imgClient6 from '../../assets/images/logo_kabupaten_pemalang-removebg-pre
 import imgClient7 from '../../assets/images/logo-djpb-removebg-preview.png';
 import imgClient8 from '../../assets/images/WhatsApp_Image_2024-05-07_at_03.27.06-removebg-preview.png';
 import imgClient9 from '../../assets/images/klflogo (3).png';
-import imgClient10 from '../../assets/images/Logo Andana Black.png';
-import imgClient11 from '../../assets/images/BadanKarantinaIndonesia-logo.png';
-3;
+import imgClient10 from '../../assets/images/BadanKarantinaIndonesia-logo.png';
+import imgClient11 from '../../assets/images/Logo Andana Black.png';
+import imgClient12 from '../../assets/images/the-barra-consultant-logo.png';
+import imgClient13 from '../../assets/images/EnterManagementKudus.jpg';
+
 const Client = () => {
   return (
     <div className="py-10 px-6 sm:px-16 ">
@@ -32,10 +34,12 @@ const Client = () => {
         <img src={imgClient5} className="h-10 md:h-16 " alt="" />
         <img src={imgClient7} className="h-10 md:h-16 " alt="" />
         <img src={imgClient6} className="h-10 md:h-16 " alt="" />
-        <img src={imgClient9} className="h-10 md:h-20 w-44" alt="" />
+        <img src={imgClient9} className="h-10 md:h-20 w-40" alt="" />
         <img src={imgClient8} className="h-10 md:h-20 " alt="" />
-        <img src={imgClient10} className="h-16 md:h-32 " alt="" />
-        <img src={imgClient11} className="h-10 md:h-16 " alt="" />
+        <img src={imgClient10} className="h-10 md:h-16 " alt="" />
+        <img src={imgClient11} className="h-16 md:h-32 " alt="" />
+        <img src={imgClient12} className="h-10 md:h-16 " alt="" />
+        <img src={imgClient13} className="h-10 md:h-16 " alt="" />
       </div>
     </div>
   );
