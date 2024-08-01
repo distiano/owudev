@@ -12,6 +12,8 @@ import video1 from '../assets/video/video5.mp4';
 import video2 from '../assets/video/video2.mp4';
 import video3 from '../assets/video/video3.mp4';
 import video4 from '../assets/video/video4.mp4';
+import entermanagement from '../assets/video/entermanagement.mp4';
+import barraconsultant from '../assets/video/barraconsultant.mp4';
 import Chat from '../Components/Chat/Chat';
 
 const PortofolioPage = () => {
@@ -32,6 +34,32 @@ const PortofolioPage = () => {
       </div>{' '} */}
       <p className="text-center mt-3 text-sm sm:text-md lg:px-52 px-6">Beberapa portofilo website dan aplikasi klien yang telah kami kerjakan.</p>
       <div className="grid grid-cols-1 gap-12 md:grid-cols-2 lg:gap-16 py-10 px-6 lg:px-24">
+      <div className="">
+          {/* <Link to={`/portofolio/${portofolio.id}`}> */}
+          <div className="relative group shadow-md">
+            <video autoPlay muted loop className="rounded-md">
+              <source src={barraconsultant} type="video/mp4" />
+              Your browser does not support the video tag.
+            </video>{' '}
+          </div>
+          {/* </Link> */}
+          <div className="">
+            <h4 className=" text-xl font-semibold mt-3">Company Profile - The Barra Consultant</h4>
+          </div>
+        </div>
+        <div className="">
+          {/* <Link to={`/portofolio/${portofolio.id}`}> */}
+          <div className="relative group shadow-md">
+            <video autoPlay muted loop className="rounded-md">
+              <source src={entermanagement} type="video/mp4" />
+              Your browser does not support the video tag.
+            </video>{' '}
+          </div>
+          {/* </Link> */}
+          <div className="">
+            <h4 className=" text-xl font-semibold mt-3">Company Profile - Enter Management</h4>
+          </div>
+        </div>
         <div className="">
           {/* <Link to={`/portofolio/${portofolio.id}`}> */}
           <div className="relative group shadow-md">
