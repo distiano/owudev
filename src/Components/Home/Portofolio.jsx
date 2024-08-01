@@ -3,10 +3,10 @@ import './home.css';
 import portofolio from '../../assets/data/portofolio';
 import { Link } from 'react-router-dom';
 import { FaArrowRightToBracket } from 'react-icons/fa6';
-import video1 from '../../assets/video/video5.mp4';
-import video2 from '../../assets/video/video2.mp4';
-import video3 from '../../assets/video/video3.mp4';
-import video4 from '../../assets/video/video4.mp4';
+import video1 from '../../assets/video/barraconsultant.mp4';
+import video2 from '../../assets/video/entermanagement.mp4';
+import video3 from '../../assets/video/rakevfurniture.mp4';
+import video4 from '../../assets/video/video2.mp4';
 
 const Portofolio = () => {
   return (
@@ -28,7 +28,7 @@ const Portofolio = () => {
           </div>
           {/* </Link> */}
           <div className="text-center">
-            <h4 className=" sm:text-xl font-semibold mt-3">Landing Page</h4>
+            <h4 className=" sm:text-xl font-semibold mt-3">Company Profile - The Barra Consultant</h4>
           </div>
         </div>
         <div className="h-38  ">
@@ -41,7 +41,7 @@ const Portofolio = () => {
           </div>
           {/* </Link> */}
           <div className="text-center">
-            <h4 className=" sm:text-xl font-semibold mt-3">KLF Project Manager</h4>
+            <h4 className=" sm:text-xl font-semibold mt-3">Company Profile - Enter Management</h4>
           </div>
         </div>
         <div className="h-38  ">
@@ -54,7 +54,7 @@ const Portofolio = () => {
           </div>
           {/* </Link> */}
           <div className="text-center">
-            <h4 className=" sm:text-xl font-semibold mt-3">Aplikasi HRIS - The Farmhill</h4>
+            <h4 className=" sm:text-xl font-semibold mt-3">Company Profile - Rakev Furniture</h4>
           </div>
         </div>
         <div className="h-38  ">
@@ -67,7 +67,7 @@ const Portofolio = () => {
           </div>
           {/* </Link> */}
           <div className="text-center">
-            <h4 className=" sm:text-xl font-semibold mt-3">Virtual Showroom</h4>
+            <h4 className=" sm:text-xl font-semibold mt-3">KLF Project Manager</h4>
           </div>
         </div>
       </div>
@@ -77,7 +77,7 @@ const Portofolio = () => {
           className="text-center flex items-center justify-center gap-4 bg-blue-500 py-3 rounded-2xl text-sm font-bold text-white w-36 sm:w-56 hover:bg-blue-800 transition duration-300 ease-in-out"
           style={{ boxShadow: ' 4px 4px 4px 0px #00000040' }}
         >
-          View More
+          Selengkapnya
         </Link>
       </div>
     </div>

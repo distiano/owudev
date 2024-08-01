@@ -145,7 +145,7 @@ const portofolio = [
   {
     id: 8,
     images: [sibanyumudal1, sibanyumudal2, sibanyumudal3],
-    judul: 'Sistem Informasi Desa Banyumudal',
+    judul: 'Display Informasi Desa Banyumudal',
   },
   {
     id: 9,
@@ -155,7 +155,7 @@ const portofolio = [
   {
     id: 10,
     images: [karimworks1, karimworks2, karimworks3, karimworks4, karimworks5],
-    judul: 'Landing Page - Karimworks',
+    judul: 'Company Profile - Karimworks',
   },
   {
     id: 11,
