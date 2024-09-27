@@ -13,6 +13,7 @@ import imgClient12 from '../../assets/images/the-barra-consultant-logo.png';
 import imgClient13 from '../../assets/images/EnterManagementKudus.jpg';
 import imgClient14 from '../../assets/images/Logo-NU.png';
 import imgClient15 from '../../assets/images/metastudio-logo3.png';
+import imgClient16 from '../../assets/images/k3lh-logo.png';
 
 const Client = () => {
   return (
@@ -44,6 +45,7 @@ const Client = () => {
         <img src={imgClient13} className="h-10 md:h-16 " alt="" />
         <img src={imgClient14} className="h-10 md:h-16 " alt="" />
         <img src={imgClient15} className="h-10 md:h-16 " alt="" />
+        <img src={imgClient16} className="h-10 md:h-16 " alt="" />
       </div>
     </div>
   );
