@@ -11,11 +11,12 @@ import imgClient10 from '../../assets/images/BadanKarantinaIndonesia-logo.png';
 import imgClient11 from '../../assets/images/Logo Andana Black.png';
 import imgClient12 from '../../assets/images/the-barra-consultant-logo.png';
 import imgClient13 from '../../assets/images/EnterManagementKudus.jpg';
-import imgClient14 from '../../assets/images/Logo-NU.png';
+import imgClient14 from '../../assets/images/logo-jaya26.png';
 import imgClient15 from '../../assets/images/metastudio-logo3.png';
 import imgClient16 from '../../assets/images/k3lh-logo.png';
 import imgClient17 from '../../assets/images/logo_javafurindoor.png';
 import imgClient18 from '../../assets/images/logo-yulis-jati.png';
+import imgClient19 from '../../assets/images/wira-karya-agung.png';
 
 const Client = () => {
   return (
@@ -42,14 +43,16 @@ const Client = () => {
         <img src={imgClient9} className="h-10 md:h-20 w-20 md:w-40" alt="" />
         <img src={imgClient8} className="h-10 md:h-20 " alt="" />
         <img src={imgClient10} className="h-10 md:h-16 " alt="" />
+        <img src={imgClient14} className="h-10 md:h-16 " alt="" />
         <img src={imgClient11} className="h-16 md:h-32 " alt="" />
+        <img src={imgClient19} className="h-10 md:h-16 " alt="" />
         <img src={imgClient12} className="h-10 md:h-16 " alt="" />
         <img src={imgClient13} className="h-10 md:h-16 " alt="" />
-        <img src={imgClient14} className="h-10 md:h-16 " alt="" />
         <img src={imgClient18} className="h-5 md:h-10 " alt="" />
         <img src={imgClient15} className="h-10 md:h-16 " alt="" />
         <img src={imgClient16} className="h-10 md:h-16 " alt="" />
         <img src={imgClient17} className="h-10 md:h-16 " alt="" />
+
       </div>
     </div>
   );
